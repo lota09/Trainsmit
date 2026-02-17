@@ -1,0 +1,42 @@
+In file included from c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.h:101,
+                 from c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:16:
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c: In member function 'void TFT_eSPI::pushBlock(uint16_t, uint32_t)':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:438:52: error: 'SPI_USR_MOSI_DBITLEN' was not declared in this scope; did you mean 'SPI_USR_ADDR_BITLEN'?
+  438 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, 479, SPI_USR_MOSI_DBITLEN_S);
+      |                                                    ^~~~~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:34:46: note: in definition of macro 'WRITE_PERI_REG'
+   34 |   (*(volatile uint32_t *)(addr) = (uint32_t)(val))
+      |                                              ^~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:438:5: note: in expansion of macro 'SET_PERI_REG_BITS'
+  438 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, 479, SPI_USR_MOSI_DBITLEN_S);
+      |     ^~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:438:79: error: 'SPI_USR_MOSI_DBITLEN_S' was not declared in this scope; did you mean 'SPI_USR_ADDR_BITLEN_S'?
+  438 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, 479, SPI_USR_MOSI_DBITLEN_S);
+      |                                                                               ^~~~~~~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:34:46: note: in definition of macro 'WRITE_PERI_REG'
+   34 |   (*(volatile uint32_t *)(addr) = (uint32_t)(val))
+      |                                              ^~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:438:5: note: in expansion of macro 'SET_PERI_REG_BITS'
+  438 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, 479, SPI_USR_MOSI_DBITLEN_S);
+      |     ^~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:52: error: 'SPI_USR_MOSI_DBITLEN' was not declared in this scope; did you mean 'SPI_USR_ADDR_BITLEN'?
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |                                                    ^~~~~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:34:46: note: in definition of macro 'WRITE_PERI_REG'
+   34 |   (*(volatile uint32_t *)(addr) = (uint32_t)(val))
+      |                                              ^~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:5: note: in expansion of macro 'SET_PERI_REG_BITS'
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |     ^~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:90: error: 'SPI_USR_MOSI_DBITLEN_S' was not declared in this scope; did you mean 'SPI_USR_ADDR_BITLEN_S'?
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |                                                                                          ^~~~~~~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:34:46: note: in definition of macro 'WRITE_PERI_REG'
+   34 |   (*(volatile uint32_t *)(addr) = (uint32_t)(val))
+      |                                              ^~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:5: note: in expansion of macro 'SET_PERI_REG_BITS'
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |     ^~~~~~~~~~~~~~~~~
+exit status 1
+
+Compilation error: exit status 1

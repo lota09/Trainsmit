@@ -1,0 +1,1001 @@
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:454:7: note: in expansion of macro 'WRITE_PERI_REG'
+  454 |       WRITE_PERI_REG(SPI_W11_REG(SPI_PORT), r2);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1883:25: note: in expansion of macro 'REG_SPI_BASE'
+ 1883 | #define SPI_W11_REG(i) (REG_SPI_BASE(i) + 0xc4)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:454:22: note: in expansion of macro 'SPI_W11_REG'
+  454 |       WRITE_PERI_REG(SPI_W11_REG(SPI_PORT), r2);
+      |                      ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:454:34: note: in expansion of macro 'SPI_PORT'
+  454 |       WRITE_PERI_REG(SPI_W11_REG(SPI_PORT), r2);
+      |                                  ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:455:7: note: in expansion of macro 'WRITE_PERI_REG'
+  455 |       WRITE_PERI_REG(SPI_W12_REG(SPI_PORT), r0);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1895:25: note: in expansion of macro 'REG_SPI_BASE'
+ 1895 | #define SPI_W12_REG(i) (REG_SPI_BASE(i) + 0xc8)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:455:22: note: in expansion of macro 'SPI_W12_REG'
+  455 |       WRITE_PERI_REG(SPI_W12_REG(SPI_PORT), r0);
+      |                      ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:455:34: note: in expansion of macro 'SPI_PORT'
+  455 |       WRITE_PERI_REG(SPI_W12_REG(SPI_PORT), r0);
+      |                                  ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:456:7: note: in expansion of macro 'WRITE_PERI_REG'
+  456 |       WRITE_PERI_REG(SPI_W13_REG(SPI_PORT), r1);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1907:25: note: in expansion of macro 'REG_SPI_BASE'
+ 1907 | #define SPI_W13_REG(i) (REG_SPI_BASE(i) + 0xcc)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:456:22: note: in expansion of macro 'SPI_W13_REG'
+  456 |       WRITE_PERI_REG(SPI_W13_REG(SPI_PORT), r1);
+      |                      ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:456:34: note: in expansion of macro 'SPI_PORT'
+  456 |       WRITE_PERI_REG(SPI_W13_REG(SPI_PORT), r1);
+      |                                  ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:457:7: note: in expansion of macro 'WRITE_PERI_REG'
+  457 |       WRITE_PERI_REG(SPI_W14_REG(SPI_PORT), r2);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1919:25: note: in expansion of macro 'REG_SPI_BASE'
+ 1919 | #define SPI_W14_REG(i) (REG_SPI_BASE(i) + 0xd0)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:457:22: note: in expansion of macro 'SPI_W14_REG'
+  457 |       WRITE_PERI_REG(SPI_W14_REG(SPI_PORT), r2);
+      |                      ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:457:34: note: in expansion of macro 'SPI_PORT'
+  457 |       WRITE_PERI_REG(SPI_W14_REG(SPI_PORT), r2);
+      |                                  ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:112:13: note: in expansion of macro 'WRITE_PERI_REG'
+  112 |             WRITE_PERI_REG((reg), (READ_PERI_REG(reg)|(mask)));                                                        \
+      |             ^~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:458:7: note: in expansion of macro 'SET_PERI_REG_MASK'
+  458 |       SET_PERI_REG_MASK(SPI_CMD_REG(SPI_PORT), SPI_USR);
+      |       ^~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:17:25: note: in expansion of macro 'REG_SPI_BASE'
+   17 | #define SPI_CMD_REG(i) (REG_SPI_BASE(i) + 0x0)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:458:25: note: in expansion of macro 'SPI_CMD_REG'
+  458 |       SET_PERI_REG_MASK(SPI_CMD_REG(SPI_PORT), SPI_USR);
+      |                         ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:458:37: note: in expansion of macro 'SPI_PORT'
+  458 |       SET_PERI_REG_MASK(SPI_CMD_REG(SPI_PORT), SPI_USR);
+      |                                     ^~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:112:54: error: invalid operands of types 'void' and 'long unsigned int' to binary 'operator|'
+  112 |             WRITE_PERI_REG((reg), (READ_PERI_REG(reg)|(mask)));                                                        \
+      |                                                      ^~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:102:76: note: in definition of macro 'WRITE_PERI_REG'
+  102 |             (*((volatile uint32_t *)ETS_UNCACHED_ADDR(addr))) = (uint32_t)(val);                                       \
+      |                                                                            ^~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:458:7: note: in expansion of macro 'SET_PERI_REG_MASK'
+  458 |       SET_PERI_REG_MASK(SPI_CMD_REG(SPI_PORT), SPI_USR);
+      |       ^~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:461:12: note: in expansion of macro 'READ_PERI_REG'
+  461 |     while (READ_PERI_REG(SPI_CMD_REG(SPI_PORT))&SPI_USR);
+      |            ^~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:17:25: note: in expansion of macro 'REG_SPI_BASE'
+   17 | #define SPI_CMD_REG(i) (REG_SPI_BASE(i) + 0x0)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:461:26: note: in expansion of macro 'SPI_CMD_REG'
+  461 |     while (READ_PERI_REG(SPI_CMD_REG(SPI_PORT))&SPI_USR);
+      |                          ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:461:38: note: in expansion of macro 'SPI_PORT'
+  461 |     while (READ_PERI_REG(SPI_CMD_REG(SPI_PORT))&SPI_USR);
+      |                                      ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:461:48: error: invalid operands of types 'void' and 'long unsigned int' to binary 'operator&'
+  461 |     while (READ_PERI_REG(SPI_CMD_REG(SPI_PORT))&SPI_USR);
+      |                                                ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:127:13: note: in expansion of macro 'WRITE_PERI_REG'
+  127 |             WRITE_PERI_REG((reg),(READ_PERI_REG(reg)&(~((bit_map)<<(shift))))|(((value) & (bit_map))<<(shift)) );      \
+      |             ^~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:5: note: in expansion of macro 'SET_PERI_REG_BITS'
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |     ^~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:41: note: in expansion of macro 'SPI_PORT'
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |                                         ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:23: error: 'SPI_MOSI_DLEN_REG' was not declared in this scope; did you mean 'SPI_MS_DLEN_REG'?
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |                       ^~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:127:13: note: in expansion of macro 'WRITE_PERI_REG'
+  127 |             WRITE_PERI_REG((reg),(READ_PERI_REG(reg)&(~((bit_map)<<(shift))))|(((value) & (bit_map))<<(shift)) );      \
+      |             ^~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:5: note: in expansion of macro 'SET_PERI_REG_BITS'
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |     ^~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:52: error: 'SPI_USR_MOSI_DBITLEN' was not declared in this scope; did you mean 'SPI_USR_ADDR_BITLEN'?
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |                                                    ^~~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:102:76: note: in definition of macro 'WRITE_PERI_REG'
+  102 |             (*((volatile uint32_t *)ETS_UNCACHED_ADDR(addr))) = (uint32_t)(val);                                       \
+      |                                                                            ^~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:5: note: in expansion of macro 'SET_PERI_REG_BITS'
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |     ^~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:90: error: 'SPI_USR_MOSI_DBITLEN_S' was not declared in this scope; did you mean 'SPI_USR_ADDR_BITLEN_S'?
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |                                                                                          ^~~~~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:102:76: note: in definition of macro 'WRITE_PERI_REG'
+  102 |             (*((volatile uint32_t *)ETS_UNCACHED_ADDR(addr))) = (uint32_t)(val);                                       \
+      |                                                                            ^~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:466:5: note: in expansion of macro 'SET_PERI_REG_BITS'
+  466 |     SET_PERI_REG_BITS(SPI_MOSI_DLEN_REG(SPI_PORT), SPI_USR_MOSI_DBITLEN, (len * 24) - 1, SPI_USR_MOSI_DBITLEN_S);
+      |     ^~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:467:5: note: in expansion of macro 'WRITE_PERI_REG'
+  467 |     WRITE_PERI_REG(SPI_W0_REG(SPI_PORT), r0);
+      |     ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1751:24: note: in expansion of macro 'REG_SPI_BASE'
+ 1751 | #define SPI_W0_REG(i) (REG_SPI_BASE(i) + 0x98)
+      |                        ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:467:20: note: in expansion of macro 'SPI_W0_REG'
+  467 |     WRITE_PERI_REG(SPI_W0_REG(SPI_PORT), r0);
+      |                    ^~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:467:31: note: in expansion of macro 'SPI_PORT'
+  467 |     WRITE_PERI_REG(SPI_W0_REG(SPI_PORT), r0);
+      |                               ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:468:5: note: in expansion of macro 'WRITE_PERI_REG'
+  468 |     WRITE_PERI_REG(SPI_W1_REG(SPI_PORT), r1);
+      |     ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1763:24: note: in expansion of macro 'REG_SPI_BASE'
+ 1763 | #define SPI_W1_REG(i) (REG_SPI_BASE(i) + 0x9c)
+      |                        ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:468:20: note: in expansion of macro 'SPI_W1_REG'
+  468 |     WRITE_PERI_REG(SPI_W1_REG(SPI_PORT), r1);
+      |                    ^~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:468:31: note: in expansion of macro 'SPI_PORT'
+  468 |     WRITE_PERI_REG(SPI_W1_REG(SPI_PORT), r1);
+      |                               ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:469:5: note: in expansion of macro 'WRITE_PERI_REG'
+  469 |     WRITE_PERI_REG(SPI_W2_REG(SPI_PORT), r2);
+      |     ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1775:24: note: in expansion of macro 'REG_SPI_BASE'
+ 1775 | #define SPI_W2_REG(i) (REG_SPI_BASE(i) + 0xa0)
+      |                        ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:469:20: note: in expansion of macro 'SPI_W2_REG'
+  469 |     WRITE_PERI_REG(SPI_W2_REG(SPI_PORT), r2);
+      |                    ^~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:469:31: note: in expansion of macro 'SPI_PORT'
+  469 |     WRITE_PERI_REG(SPI_W2_REG(SPI_PORT), r2);
+      |                               ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:470:5: note: in expansion of macro 'WRITE_PERI_REG'
+  470 |     WRITE_PERI_REG(SPI_W3_REG(SPI_PORT), r0);
+      |     ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1787:24: note: in expansion of macro 'REG_SPI_BASE'
+ 1787 | #define SPI_W3_REG(i) (REG_SPI_BASE(i) + 0xa4)
+      |                        ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:470:20: note: in expansion of macro 'SPI_W3_REG'
+  470 |     WRITE_PERI_REG(SPI_W3_REG(SPI_PORT), r0);
+      |                    ^~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:470:31: note: in expansion of macro 'SPI_PORT'
+  470 |     WRITE_PERI_REG(SPI_W3_REG(SPI_PORT), r0);
+      |                               ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:471:5: note: in expansion of macro 'WRITE_PERI_REG'
+  471 |     WRITE_PERI_REG(SPI_W4_REG(SPI_PORT), r1);
+      |     ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1799:24: note: in expansion of macro 'REG_SPI_BASE'
+ 1799 | #define SPI_W4_REG(i) (REG_SPI_BASE(i) + 0xa8)
+      |                        ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:471:20: note: in expansion of macro 'SPI_W4_REG'
+  471 |     WRITE_PERI_REG(SPI_W4_REG(SPI_PORT), r1);
+      |                    ^~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:471:31: note: in expansion of macro 'SPI_PORT'
+  471 |     WRITE_PERI_REG(SPI_W4_REG(SPI_PORT), r1);
+      |                               ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:472:5: note: in expansion of macro 'WRITE_PERI_REG'
+  472 |     WRITE_PERI_REG(SPI_W5_REG(SPI_PORT), r2);
+      |     ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1811:24: note: in expansion of macro 'REG_SPI_BASE'
+ 1811 | #define SPI_W5_REG(i) (REG_SPI_BASE(i) + 0xac)
+      |                        ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:472:20: note: in expansion of macro 'SPI_W5_REG'
+  472 |     WRITE_PERI_REG(SPI_W5_REG(SPI_PORT), r2);
+      |                    ^~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:472:31: note: in expansion of macro 'SPI_PORT'
+  472 |     WRITE_PERI_REG(SPI_W5_REG(SPI_PORT), r2);
+      |                               ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:475:7: note: in expansion of macro 'WRITE_PERI_REG'
+  475 |       WRITE_PERI_REG(SPI_W6_REG(SPI_PORT), r0);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1823:24: note: in expansion of macro 'REG_SPI_BASE'
+ 1823 | #define SPI_W6_REG(i) (REG_SPI_BASE(i) + 0xb0)
+      |                        ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:475:22: note: in expansion of macro 'SPI_W6_REG'
+  475 |       WRITE_PERI_REG(SPI_W6_REG(SPI_PORT), r0);
+      |                      ^~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:475:33: note: in expansion of macro 'SPI_PORT'
+  475 |       WRITE_PERI_REG(SPI_W6_REG(SPI_PORT), r0);
+      |                                 ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:476:7: note: in expansion of macro 'WRITE_PERI_REG'
+  476 |       WRITE_PERI_REG(SPI_W7_REG(SPI_PORT), r1);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1835:24: note: in expansion of macro 'REG_SPI_BASE'
+ 1835 | #define SPI_W7_REG(i) (REG_SPI_BASE(i) + 0xb4)
+      |                        ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:476:22: note: in expansion of macro 'SPI_W7_REG'
+  476 |       WRITE_PERI_REG(SPI_W7_REG(SPI_PORT), r1);
+      |                      ^~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:476:33: note: in expansion of macro 'SPI_PORT'
+  476 |       WRITE_PERI_REG(SPI_W7_REG(SPI_PORT), r1);
+      |                                 ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:477:7: note: in expansion of macro 'WRITE_PERI_REG'
+  477 |       WRITE_PERI_REG(SPI_W8_REG(SPI_PORT), r2);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1847:24: note: in expansion of macro 'REG_SPI_BASE'
+ 1847 | #define SPI_W8_REG(i) (REG_SPI_BASE(i) + 0xb8)
+      |                        ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:477:22: note: in expansion of macro 'SPI_W8_REG'
+  477 |       WRITE_PERI_REG(SPI_W8_REG(SPI_PORT), r2);
+      |                      ^~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:477:33: note: in expansion of macro 'SPI_PORT'
+  477 |       WRITE_PERI_REG(SPI_W8_REG(SPI_PORT), r2);
+      |                                 ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:478:7: note: in expansion of macro 'WRITE_PERI_REG'
+  478 |       WRITE_PERI_REG(SPI_W9_REG(SPI_PORT), r0);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1859:24: note: in expansion of macro 'REG_SPI_BASE'
+ 1859 | #define SPI_W9_REG(i) (REG_SPI_BASE(i) + 0xbc)
+      |                        ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:478:22: note: in expansion of macro 'SPI_W9_REG'
+  478 |       WRITE_PERI_REG(SPI_W9_REG(SPI_PORT), r0);
+      |                      ^~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:478:33: note: in expansion of macro 'SPI_PORT'
+  478 |       WRITE_PERI_REG(SPI_W9_REG(SPI_PORT), r0);
+      |                                 ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:479:7: note: in expansion of macro 'WRITE_PERI_REG'
+  479 |       WRITE_PERI_REG(SPI_W10_REG(SPI_PORT), r1);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1871:25: note: in expansion of macro 'REG_SPI_BASE'
+ 1871 | #define SPI_W10_REG(i) (REG_SPI_BASE(i) + 0xc0)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:479:22: note: in expansion of macro 'SPI_W10_REG'
+  479 |       WRITE_PERI_REG(SPI_W10_REG(SPI_PORT), r1);
+      |                      ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:479:34: note: in expansion of macro 'SPI_PORT'
+  479 |       WRITE_PERI_REG(SPI_W10_REG(SPI_PORT), r1);
+      |                                  ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:480:7: note: in expansion of macro 'WRITE_PERI_REG'
+  480 |       WRITE_PERI_REG(SPI_W11_REG(SPI_PORT), r2);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1883:25: note: in expansion of macro 'REG_SPI_BASE'
+ 1883 | #define SPI_W11_REG(i) (REG_SPI_BASE(i) + 0xc4)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:480:22: note: in expansion of macro 'SPI_W11_REG'
+  480 |       WRITE_PERI_REG(SPI_W11_REG(SPI_PORT), r2);
+      |                      ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:480:34: note: in expansion of macro 'SPI_PORT'
+  480 |       WRITE_PERI_REG(SPI_W11_REG(SPI_PORT), r2);
+      |                                  ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:481:7: note: in expansion of macro 'WRITE_PERI_REG'
+  481 |       WRITE_PERI_REG(SPI_W12_REG(SPI_PORT), r0);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1895:25: note: in expansion of macro 'REG_SPI_BASE'
+ 1895 | #define SPI_W12_REG(i) (REG_SPI_BASE(i) + 0xc8)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:481:22: note: in expansion of macro 'SPI_W12_REG'
+  481 |       WRITE_PERI_REG(SPI_W12_REG(SPI_PORT), r0);
+      |                      ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:481:34: note: in expansion of macro 'SPI_PORT'
+  481 |       WRITE_PERI_REG(SPI_W12_REG(SPI_PORT), r0);
+      |                                  ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:482:7: note: in expansion of macro 'WRITE_PERI_REG'
+  482 |       WRITE_PERI_REG(SPI_W13_REG(SPI_PORT), r1);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1907:25: note: in expansion of macro 'REG_SPI_BASE'
+ 1907 | #define SPI_W13_REG(i) (REG_SPI_BASE(i) + 0xcc)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:482:22: note: in expansion of macro 'SPI_W13_REG'
+  482 |       WRITE_PERI_REG(SPI_W13_REG(SPI_PORT), r1);
+      |                      ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:482:34: note: in expansion of macro 'SPI_PORT'
+  482 |       WRITE_PERI_REG(SPI_W13_REG(SPI_PORT), r1);
+      |                                  ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:483:7: note: in expansion of macro 'WRITE_PERI_REG'
+  483 |       WRITE_PERI_REG(SPI_W14_REG(SPI_PORT), r2);
+      |       ^~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:1919:25: note: in expansion of macro 'REG_SPI_BASE'
+ 1919 | #define SPI_W14_REG(i) (REG_SPI_BASE(i) + 0xd0)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:483:22: note: in expansion of macro 'SPI_W14_REG'
+  483 |       WRITE_PERI_REG(SPI_W14_REG(SPI_PORT), r2);
+      |                      ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:483:34: note: in expansion of macro 'SPI_PORT'
+  483 |       WRITE_PERI_REG(SPI_W14_REG(SPI_PORT), r2);
+      |                                  ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:112:13: note: in expansion of macro 'WRITE_PERI_REG'
+  112 |             WRITE_PERI_REG((reg), (READ_PERI_REG(reg)|(mask)));                                                        \
+      |             ^~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:486:5: note: in expansion of macro 'SET_PERI_REG_MASK'
+  486 |     SET_PERI_REG_MASK(SPI_CMD_REG(SPI_PORT), SPI_USR);
+      |     ^~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:17:25: note: in expansion of macro 'REG_SPI_BASE'
+   17 | #define SPI_CMD_REG(i) (REG_SPI_BASE(i) + 0x0)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:486:23: note: in expansion of macro 'SPI_CMD_REG'
+  486 |     SET_PERI_REG_MASK(SPI_CMD_REG(SPI_PORT), SPI_USR);
+      |                       ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:486:35: note: in expansion of macro 'SPI_PORT'
+  486 |     SET_PERI_REG_MASK(SPI_CMD_REG(SPI_PORT), SPI_USR);
+      |                                   ^~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:112:54: error: invalid operands of types 'void' and 'long unsigned int' to binary 'operator|'
+  112 |             WRITE_PERI_REG((reg), (READ_PERI_REG(reg)|(mask)));                                                        \
+      |                                                      ^~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:102:76: note: in definition of macro 'WRITE_PERI_REG'
+  102 |             (*((volatile uint32_t *)ETS_UNCACHED_ADDR(addr))) = (uint32_t)(val);                                       \
+      |                                                                            ^~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:486:5: note: in expansion of macro 'SET_PERI_REG_MASK'
+  486 |     SET_PERI_REG_MASK(SPI_CMD_REG(SPI_PORT), SPI_USR);
+      |     ^~~~~~~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:75:22: error: 'VSPI' was not declared in this scope; did you mean 'SPI'?
+   75 |     #define SPI_PORT VSPI
+      |                      ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/include/soc/soc.h:32:34: note: in definition of macro 'ETS_UNCACHED_ADDR'
+   32 | #define ETS_UNCACHED_ADDR(addr) (addr)
+      |                                  ^~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:487:12: note: in expansion of macro 'READ_PERI_REG'
+  487 |     while (READ_PERI_REG(SPI_CMD_REG(SPI_PORT))&SPI_USR);
+      |            ^~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/spi_reg.h:17:25: note: in expansion of macro 'REG_SPI_BASE'
+   17 | #define SPI_CMD_REG(i) (REG_SPI_BASE(i) + 0x0)
+      |                         ^~~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:487:26: note: in expansion of macro 'SPI_CMD_REG'
+  487 |     while (READ_PERI_REG(SPI_CMD_REG(SPI_PORT))&SPI_USR);
+      |                          ^~~~~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:487:38: note: in expansion of macro 'SPI_PORT'
+  487 |     while (READ_PERI_REG(SPI_CMD_REG(SPI_PORT))&SPI_USR);
+      |                                      ^~~~~~~~
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.c:487:48: error: invalid operands of types 'void' and 'long unsigned int' to binary 'operator&'
+  487 |     while (READ_PERI_REG(SPI_CMD_REG(SPI_PORT))&SPI_USR);
+      |                                                ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'void TFT_eSPI::begin_tft_write()':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:234:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  234 |         #define CS_L GPIO.out_w1tc = (1 << TFT_CS); GPIO.out_w1tc = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:80:5: note: in expansion of macro 'CS_L'
+   80 |     CS_L;
+      |     ^~~~
+In file included from C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/include/soc/gpio_periph.h:10,
+                 from C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/hal/esp32c6/include/hal/gpio_ll.h:20,
+                 from c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:14:
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:234:81: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  234 |         #define CS_L GPIO.out_w1tc = (1 << TFT_CS); GPIO.out_w1tc = (1 << TFT_CS)
+      |                                                                                 ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:80:5: note: in expansion of macro 'CS_L'
+   80 |     CS_L;
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'virtual void TFT_eSPI::begin_nin_write()':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:234:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  234 |         #define CS_L GPIO.out_w1tc = (1 << TFT_CS); GPIO.out_w1tc = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:92:5: note: in expansion of macro 'CS_L'
+   92 |     CS_L;
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:234:81: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  234 |         #define CS_L GPIO.out_w1tc = (1 << TFT_CS); GPIO.out_w1tc = (1 << TFT_CS)
+      |                                                                                 ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:92:5: note: in expansion of macro 'CS_L'
+   92 |     CS_L;
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'void TFT_eSPI::end_tft_write()':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:235:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  235 |         #define CS_H GPIO.out_w1ts = (1 << TFT_CS)//;GPIO.out_w1ts = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:106:7: note: in expansion of macro 'CS_H'
+  106 |       CS_H;
+      |       ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'virtual void TFT_eSPI::end_nin_write()':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:235:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  235 |         #define CS_H GPIO.out_w1ts = (1 << TFT_CS)//;GPIO.out_w1ts = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:121:7: note: in expansion of macro 'CS_H'
+  121 |       CS_H;
+      |       ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'void TFT_eSPI::begin_tft_read()':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:234:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  234 |         #define CS_L GPIO.out_w1tc = (1 << TFT_CS); GPIO.out_w1tc = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:141:5: note: in expansion of macro 'CS_L'
+  141 |     CS_L;
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:234:81: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  234 |         #define CS_L GPIO.out_w1tc = (1 << TFT_CS); GPIO.out_w1tc = (1 << TFT_CS)
+      |                                                                                 ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:141:5: note: in expansion of macro 'CS_L'
+  141 |     CS_L;
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'void TFT_eSPI::end_tft_read()':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:235:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  235 |         #define CS_H GPIO.out_w1ts = (1 << TFT_CS)//;GPIO.out_w1ts = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:161:7: note: in expansion of macro 'CS_H'
+  161 |       CS_H;
+      |       ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'void TFT_eSPI::writecommand(uint8_t)':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:984:3: note: in expansion of macro 'DC_C'
+  984 |   DC_C;
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:988:3: note: in expansion of macro 'DC_D'
+  988 |   DC_D;
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'void TFT_eSPI::writedata(uint8_t)':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1047:3: note: in expansion of macro 'DC_D'
+ 1047 |   DC_D;        // Play safe, but should already be in data mode
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:234:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  234 |         #define CS_L GPIO.out_w1tc = (1 << TFT_CS); GPIO.out_w1tc = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1051:3: note: in expansion of macro 'CS_L'
+ 1051 |   CS_L;        // Allow more hold time for low VDI rail
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:234:81: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  234 |         #define CS_L GPIO.out_w1tc = (1 << TFT_CS); GPIO.out_w1tc = (1 << TFT_CS)
+      |                                                                                 ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1051:3: note: in expansion of macro 'CS_L'
+ 1051 |   CS_L;        // Allow more hold time for low VDI rail
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'uint8_t TFT_eSPI::readcommand8(uint8_t, uint8_t)':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1084:3: note: in expansion of macro 'DC_C'
+ 1084 |   DC_C; tft_Write_8(0xD9);
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1085:3: note: in expansion of macro 'DC_D'
+ 1085 |   DC_D; tft_Write_8(index);
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:235:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  235 |         #define CS_H GPIO.out_w1ts = (1 << TFT_CS)//;GPIO.out_w1ts = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1087:3: note: in expansion of macro 'CS_H'
+ 1087 |   CS_H; // Some displays seem to need CS to be pulsed here, or is just a delay needed?
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:234:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  234 |         #define CS_L GPIO.out_w1tc = (1 << TFT_CS); GPIO.out_w1tc = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1088:3: note: in expansion of macro 'CS_L'
+ 1088 |   CS_L;
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:234:81: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  234 |         #define CS_L GPIO.out_w1tc = (1 << TFT_CS); GPIO.out_w1tc = (1 << TFT_CS)
+      |                                                                                 ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1088:3: note: in expansion of macro 'CS_L'
+ 1088 |   CS_L;
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1090:3: note: in expansion of macro 'DC_C'
+ 1090 |   DC_C; tft_Write_8(cmd_function);
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1091:3: note: in expansion of macro 'DC_D'
+ 1091 |   DC_D;
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'virtual uint16_t TFT_eSPI::readPixel(int32_t, int32_t)':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:235:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  235 |         #define CS_H GPIO.out_w1ts = (1 << TFT_CS)//;GPIO.out_w1ts = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:1247:3: note: in expansion of macro 'CS_H'
+ 1247 |   CS_H;
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'void TFT_eSPI::readRectRGB(int32_t, int32_t, int32_t, int32_t, uint8_t*)':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:235:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  235 |         #define CS_H GPIO.out_w1ts = (1 << TFT_CS)//;GPIO.out_w1ts = (1 << TFT_CS)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:2258:3: note: in expansion of macro 'CS_H'
+ 2258 |   CS_H;
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'virtual void TFT_eSPI::setWindow(int32_t, int32_t, int32_t, int32_t)':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3485:5: note: in expansion of macro 'DC_C'
+ 3485 |     DC_C; tft_Write_8(TFT_CASET);
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3486:5: note: in expansion of macro 'DC_D'
+ 3486 |     DC_D; tft_Write_32C(x0, x1);
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3487:5: note: in expansion of macro 'DC_C'
+ 3487 |     DC_C; tft_Write_8(TFT_PASET);
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3488:5: note: in expansion of macro 'DC_D'
+ 3488 |     DC_D; tft_Write_32C(y0, y1);
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3489:5: note: in expansion of macro 'DC_C'
+ 3489 |     DC_C; tft_Write_8(TFT_RAMWR);
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3490:5: note: in expansion of macro 'DC_D'
+ 3490 |     DC_D;
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'void TFT_eSPI::readAddrWindow(int32_t, int32_t, int32_t, int32_t)':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3561:3: note: in expansion of macro 'DC_C'
+ 3561 |   DC_C; tft_Write_8(TFT_CASET);
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3562:3: note: in expansion of macro 'DC_D'
+ 3562 |   DC_D; tft_Write_32C(xs, xe);
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3565:3: note: in expansion of macro 'DC_C'
+ 3565 |   DC_C; tft_Write_8(TFT_PASET);
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3566:3: note: in expansion of macro 'DC_D'
+ 3566 |   DC_D; tft_Write_32C(ys, ye);
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3569:3: note: in expansion of macro 'DC_C'
+ 3569 |   DC_C; tft_Write_8(TFT_RAMRD);
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3571:3: note: in expansion of macro 'DC_D'
+ 3571 |   DC_D;
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp: In member function 'virtual void TFT_eSPI::drawPixel(int32_t, int32_t, uint32_t)':
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3761:7: note: in expansion of macro 'DC_C'
+ 3761 |       DC_C; tft_Write_8(TFT_CASET);
+      |       ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3762:7: note: in expansion of macro 'DC_D'
+ 3762 |       DC_D; tft_Write_32D(x);
+      |       ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3768:7: note: in expansion of macro 'DC_C'
+ 3768 |       DC_C; tft_Write_8(TFT_PASET);
+      |       ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3769:7: note: in expansion of macro 'DC_D'
+ 3769 |       DC_D; tft_Write_32D(y);
+      |       ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:189:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1tc_reg_t' and 'int')
+  189 |         #define DC_C GPIO.out_w1tc = (1 << TFT_DC)//;GPIO.out_w1tc = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3774:3: note: in expansion of macro 'DC_C'
+ 3774 |   DC_C; tft_Write_8(TFT_RAMWR);
+      |   ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(const gpio_out_w1tc_reg_t&)'
+   64 | } gpio_out_w1tc_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1tc_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note: candidate: 'constexpr gpio_out_w1tc_reg_t& gpio_out_w1tc_reg_t::operator=(gpio_out_w1tc_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:64:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1tc_reg_t&&'
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\Processors/TFT_eSPI_ESP32.h:190:50: error: no match for 'operator=' (operand types are 'volatile gpio_out_w1ts_reg_t' and 'int')
+  190 |         #define DC_D GPIO.out_w1ts = (1 << TFT_DC)//;GPIO.out_w1ts = (1 << TFT_DC)
+      |                                                  ^
+c:\Users\lota\Documents\Arduino\libraries\TFT_eSPI\TFT_eSPI.cpp:3779:5: note: in expansion of macro 'DC_D'
+ 3779 |     DC_D; tft_Write_16N(color);
+      |     ^~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(const gpio_out_w1ts_reg_t&)'
+   51 | } gpio_out_w1ts_reg_t;
+      |   ^~~~~~~~~~~~~~~~~~~
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'const gpio_out_w1ts_reg_t&'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note: candidate: 'constexpr gpio_out_w1ts_reg_t& gpio_out_w1ts_reg_t::operator=(gpio_out_w1ts_reg_t&&)'
+C:\Users\lota\AppData\Local\Arduino15\packages\esp32\tools\esp32c6-libs\3.3.6/include/soc/esp32c6/register/soc/gpio_struct.h:51:3: note:   no known conversion for argument 1 from 'int' to 'gpio_out_w1ts_reg_t&&'
+exit status 1
+
+Compilation error: exit status 1

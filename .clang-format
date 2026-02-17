@@ -1,0 +1,16 @@
+# .clang-format
+# clang-format 설정: 줄바꿈 금지, 들여쓰기만 정렬
+BasedOnStyle: Google
+IndentWidth: 2
+ColumnLimit: 0
+AllowShortFunctionsOnASingleLine: All
+KeepEmptyLinesAtTheStartOfBlocks: true
+MaxEmptyLinesToKeep: 2
+# 들여쓰기를 위한 핵심 설정
+AccessModifierOffset: -2
+AlignAfterOpenBracket: DontAlign
+AlignConsecutiveMacros: true
+AlignConsecutiveAssignments: false
+AlignOperands: false
+# 저장 시 원치 않는 변화를 최소화
+BreakBeforeBraces: Attach

@@ -1,0 +1,1159 @@
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x1 (POWERON),boot:0x4 (DOWNLOAD(USB/UART0/SDIO_FEI_FEO))
+waiting for download
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x1 (POWERON),boot:0xe (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x1278
+load:0x4086b910,len:0xdd0
+load:0x4086e610,len:0x3154
+entry 0x4086b910
+
+Connecting to Wi-Fi...
+...
+Wi-Fi Connected!
+IP Address: 192.168.50.12
+
+[Subway] Fetching info for: 마곡나루
+Subway JSON Parse Error
+
+[Weather] Fetching weather for Magok-dong...
+>> 현재 날씨: YPE html>
+
+<html lang="ko">
+	<head>
+	<meta charset="utf-8" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	
+	<meta name="robots" content="all">
+	
+	<meta name="keywords" content="기상청-주요업무, 정보공개, 국민참여, 디지털간행물, 기상청뉴스, 기관소개 안내">
+	<meta name="description" content="기상청-주요업무, 정보공개, 국민참여, 디지털간행물, 기상청뉴스, 기관소개 안내">
+	<meta name="author" content="기상청">
+	<meta name="classification" content="기상청">
+	<title>기상청</title>
+	<meta name="decorator" content="kma-popup"/>
+	<link rel="apple-touch-icon-precomposed" href="/kma/resources/images/common/favicon.ico">
+	<link rel="shortcut icon" href="/kma/resources/images/common/favicon.ico">
+	
+	<meta property="og:title" content="기상청">
+	<meta property="og:image" content="https://www.kma.go.kr/kma/iphone-shortcut.png">
+	
+	<link rel="stylesheet" type="text/css" href="/kma/resources/css/common.css?ver=2022121919">
+	<link rel="stylesheet" type="text/css" href="/kma/resources/css/media.css?ver=2022121919">
+	
+	<script src="/kma/resources/js/jquery-1.11.3.min.js"></script>
+	<script src="/kma/resources/js/jquery-ui.js"></script>
+	<script src="/kma/resources/js/common.js?ver=2022121919"></script>
+	<style>
+		.error { max-width:1200px; margin:auto; min-height:400px; background:url(/kma/resources/images/gisang.png) 160px 80px no-repeat; background-size:200px auto;}
+		.error div.main { padding:120px 10px 10px 420px; font-weight:500; color:#013a68;}
+		.error div.main p { padding-left:10px; font-size:20px; }
+		.error div.main p.heading { padding-left:0px; font-size:26px; font-weight:600; }
+		.error div.main p.heading em { font-weight:900; font-size:30px; }
+		.error div.main p.email {padding-left:10px;}
+		.error div.main p.tel { padding-left:25px;}
+		.error div.main p a { color:#013a68; font-size:20px; }
+		.txt {padding: 40px 10px 105px 172px; font-weight:500; color:#013a68; }
+		.txt p{font-size:20px;}
+		.txt p a { color:#013a68; font-size:20px; }
+		@media screen and (max-width:768px){
+			.error { background-position: center 60px; background-size:150px auto;}
+			.error div.main { padding:10px 0px; padding-top:230px}
+			.error div.main p { text-align:center; font-size:15px; }
+			.error div.main p.heading { font-size:18px; }
+			.error div.main p.heading em { font-size:18px; }
+			.error div.main p.email { font-size:15px; }
+			.error div.main p.tel { font-size:15px; }
+			.error div.main p a { color:#013a68; font-size:15px; }
+
+			.txt{ padding:18px 25px 40px 25px;}
+			.txt p { font-size:15px; }
+			.txt p a { color:#013a68; font-size:15px; }
+		}
+	</style>
+</head>
+<body>
+	<div id="body_wrap">
+			
+	
+	<div class="eg-nuri-top">
+		<h1>이 누리집은 대한민국 공식 전자정부 누리집입니다.</h1>
+	</div>
+	<div class="skip_nav">
+		<a href="#gnavi">메인메뉴 바로가기</a>
+		<a href="#container">본문 바로가기</a>
+	</div>
+	<div class="eg-wrap">
+		<!-- 메인 eg-area -->
+		<div class="eg-area main">
+			<h1>"하늘을 친구처럼, 국민을 하늘처럼"</h1>
+		</div>
+		<!-- 서브 eg-area -->
+		<!-- <div class="eg-area">
+			<h1>이 누리집은 대한민국 공식 전자정부 누리집입니다.</h1>
+		</div> -->
+
+
+		<div class="option">
+			<div class="sch_form_group">
+				<form name="global_sch_form" action="/kma/sch/search.jsp" method="get">
+					<label for="global_sch_q">검색어</label>
+					<input type="text" id="global_sch_q" name="q" placeholder="검색어를 입력하세요.">
+					<input type="submit" id="global_sch_go" name="go" value="검색">
+				</form>
+			</div>
+			<div class="sel lang">
+				<div>
+					<a href="javascript:void(0);" class="allMenuToggle">사이트맵</a>
+					<!-- 사아트맵 -->
+					<div class="allMenu">
+						<div class="allMenuCont">
+							<ul class="allMenuList">
+								
+							</ul>
+							<!-- //.allMenuList -->
+						</div>
+						<!-- //.allMenuCont -->
+					</div>
+					<!-- // 사이트맵 -->
+				</div>
+				<a href="javascript:void(0);" title="리스트열기">Language</a>
+				<ul class="target">
+					<li><a href="https://www.kma.go.kr/neng/index.do" target="_blank" title="새창열림">English</a></li>
+					<li><a href="https://www.kma.go.kr/nchn/index.do" target="_blank" title="새창열림">中文</a></li>
+					<li><a href="https://www.kma.go.kr/njpn/index.do" target="_blank" title="새창열림">日本語</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+
+
+
+<!-- S : GNB -->
+<div id="header">
+	<div class="global_bot_wrap">
+		<div class="global_bot">
+			<h1>
+				<a href="/kma/" class="sprite">기상청</a>
+			</h1>
+			<div class="ham_btn_wrap mobile">
+				<a href="javascript:void(0);" class="ham_btn_search">모바일 검색 버튼</a> 
+				<a href="javascript:void(0);" class="ham_btn">모바일 메뉴 버튼</a>
+			</div>
+			<div class="gnb_wrap">
+				<!-- S : GNB -->
+				<div class="gnb gnb_bg6" id="gnavi">
+					<ul>
+						
+					</ul>
+					<a href="https://www.weather.go.kr/w/index.do" class="" target="_blank" title="새창열림"> 
+						<span>
+							<img src="/kma/resources/images/common/icon_weather_nuri.png" alt="날씨누리" title="새창열림">
+						</span>
+					</a>
+				</div>
+				<!-- E : GNB -->
+
+				<!-- ham = hamburger = gnb_m -->
+
+				<!-- E : ham -->
+			</div>
+		</div>
+		<!-- ham = hamburger = gnb_m -->
+		<div class="ham mobile">
+			<div class="ham_top_wrap">
+				<a href="/kma/" class="home"><span>홈</span></a>
+				<div class="option">
+					<div class="sel lang">
+						<a href="javascript:void(0);">Language</a>
+						<ul class="target">
+							<li><a href="https://www.kma.go.kr/neng/index.do">English</a></li>
+							<li><a href="https://www.kma.go.kr/nchn/index.do">中文</a></li>
+							<li><a href="https://www.kma.go.kr/njpn/index.do">日本語</a></li>
+						</ul>
+						<span class="arr"></span>
+					</div>
+					<div class="sel wd">
+						<a href="https://www.weather.go.kr/w/index.do" target="_blank" title="날씨누리 새창열림">날씨누리</a>
+					</div>
+				</div>
+				<a href="javascript:void(0);" class="ham_close" style="display: inline;"><span>햄버거메뉴 닫기</span></a>
+
+			</div>
+			<ul>
+				
+				
+			</ul>
+		</div>
+		<!-- E : ham -->
+	</div>
+	<!-- //.global -->
+</div>
+<!-- //#header -->
+<!-- S : GNB -->
+
+
+		<div id="container">
+			<div class="error">
+				<div class="main">
+					<p class="heading"><em>&ldquo;</em>서비스 이용에 불편을 드려 죄송합니다.<em>&rdquo;</em></p>
+					<p>서비스 장애가 계속될 경우, 아래로 문의 바랍니다.</p>
+					<p class="email">이메일: <a href="mailto:webmasterkma@korea.kr">webmasterkma@korea.kr</a></p>
+					<p class="email">전화: <a href='tel:02-2181-0900'>(02)2181-0900</a>, <a href='tel:042-481-7500'>(042)481-7500</a><br/>
+					기상 관련 문의: 기상콜센터(131)					
+					</p>
+				</div>
+				<div class="txt">
+					<p>
+						※ 날씨누리에 접속 시 해당화면이 나타났다면 다음을 확인해주세요.<br>
+						- 『 <a href="https://www.weather.go.kr/w/index.do" target="_blank">www.weather.go.kr/w/</a> 』 로 시작되는 URL로 접속<br>
+						- 기상청 날씨누리는 『 <a href="https://www.weather.go.kr/w/index.do" target="_blank">www.weather.go.kr/w/</a> 』 시작되는 페이지만 운영합니다.(21년 이후)<br>
+						- 그 외 접속 페이지는 현재 서비스 및 관리를 하지 않는 페이지 임을 알려드립니다.					
+					</p>
+				</div>
+			</div>
+		</div>
+		
+	
+	<div id="footer">
+		<span class="f_line mobile"></span>
+		<a href="" class="f_semicircle mobile"><strong>기상청 관련 누리집</strong> <span>펼치기</span></a>
+		<div class="f_bot_wrap">
+			<div class="f_bot">				
+				<div class="f_1st pc">
+					<div class="f_con_mid">
+						<ul>
+							<li>
+								<a href="javascript:void(0);" title="열기">소속기관</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.kma.go.kr/metropolitan/html/main/index.jsp" target="_blank" title="새창열림">수도권기상청</a></li>
+									<li><a href="http://www.kma.go.kr/busan/html/main/index.jsp" target="_blank" title="새창열림">부산지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/gwangju/html/main/index.jsp" target="_blank" title="새창열림">광주지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/gangwon/html/main/index.jsp" target="_blank" title="새창열림">강원지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/daejeon/html/main/index.jsp" target="_blank" title="새창열림">대전지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/daegu/html/main/index.jsp" target="_blank" title="새창열림">대구지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/jeju/html/main/index.jsp" target="_blank" title="새창열림">제주지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/cheongju/html/main/index.jsp" target="_blank" title="새창열림">청주기상지청</a></li>
+									<li><a href="http://www.kma.go.kr/jeonju/html/main/index.jsp" target="_blank" title="새창열림">전주기상지청</a></li>
+									<li><a href="http://www.kma.go.kr/nmc/html/main/index.jsp" target="_blank" title="새창열림">수치예보센터</a></li>
+									<li><a href="http://www.kma.go.kr/mhi" target="_blank" title="새창열림">기상기후인재개발원</a></li>
+									<li><a href="http://nmsc.kma.go.kr" target="_blank" title="새창열림">국가기상위성센터</a></li>
+									<li><a href="http://amo.kma.go.kr" target="_blank" title="새창열림">항공기상청</a></li>
+									<li><a href="http://www.nims.go.kr/" target="_blank" title="새창열림">국립기상과학원</a></li>
+									<li><a href="http://radar.kma.go.kr" target="_blank" title="새창열림">기상레이더센터</a></li>
+									<li><a href="http://www.kma.go.kr/super" target="_blank" title="새창열림">국가기상슈퍼컴퓨터센터</a></li>									
+								</ul>
+								<span class="arr"></span>
+							</li>
+							<li><a href="javascript:void(0);" title="열기">방재유관기관</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://119.seoul.go.kr/" target="_blank" title="새창열림">서울종합방재센터</a></li>
+									<li><a href="http://www.ndmi.go.kr" target="_blank" title="새창열림">국립재난안전연구원</a></li>
+									<li><a href="http://www.hrfco.go.kr/" target="_blank" title="새창열림">한강홍수통제소</a></li>
+									<li><a href="http://www.mois.go.kr/frt/a01/frtMain.do" target="_blank" title="새창열림">중앙재난안전대책본부</a></li>
+									<li><a href="http://www.airkorea.or.kr" target="_blank" title="새창열림">대기오염도실시간공개</a></li>
+									<li><a href="http://www.wamis.go.kr" target="_blank" title="새창열림">국가수자원관리종합정보시스템</a></li>	
+									<li><a href="http://d.kbs.co.kr" target="_blank" title="새창열림">KBS재난포털</a></li>	
+								</ul>
+								<span class="arr"></span>
+							</li>
+							<li><a href="javascript:void(0);" title="열기">주요행정기관</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.president.go.kr/" target="_blank" title="새창열림">대한민국 대통령실</a></li>
+									<li><a href="http://www.opm.go.kr/" target="_blank" title="새창열림">국무총리실</a></li>
+									<li><a href="http://www.bai.go.kr/" target="_blank" title="새창열림">감사원</a></li>
+									<li><a href="http://www.nis.go.kr/" target="_blank" title="새창열림">국가정보원</a></li>
+									<li><a href="http://www.kcc.go.kr/" target="_blank" title="새창열림">방송미디어통신위원회</a></li>
+									<li><a href="http://www.humanrights.go.kr/" target="_blank" title="새창열림">국가인권위원회</a></li>
+									<li><a href="http://www.ftc.go.kr/" target="_blank" title="새창열림">공정거래위원회</a></li>
+									<li><a href="http://www.fsc.go.kr/" target="_blank" title="새창열림">금융위원회</a></li>
+									<li><a href="http://www.acrc.go.kr/" target="_blank" title="새창열림">국민권익위원회</a></li>
+									<li><a href="http://nas.na.go.kr/" target="_blank" title="새창열림">국회사무처</a></li>
+									<li class="devide"><a href="javascript:void(0);" title="[ 19부 ]">[ 19부 ]</a></li>
+									<li><a href="http://www.moef.go.kr/" target="_blank" title="새창열림">기획재정부</a></li>
+									<li><a href="http://www.msit.go.kr/" target="_blank" title="새창열림">과학기술정보통신부</a></li>
+									<li><a href="http://www.moe.go.kr/" target="_blank" title="새창열림">교육부</a></li>
+									<li><a href="http://www.mofat.go.kr" target="_blank" title="새창열림">외교부</a></li>
+									<li><a href="http://www.unikorea.go.kr/" target="_blank" title="새창열림">통일부</a></li>
+									<li><a href="http://www.moj.go.kr/" target="_blank" title="새창열림">법무부</a></li>
+									<li><a href="http://www.mnd.go.kr/" target="_blank" title="새창열림">국방부</a></li>
+									<li><a href="http://www.mois.go.kr/" target="_blank" title="새창열림">행정안전부</a></li>
+									<li><a href="http://www.mpva.go.kr/" target="_blank" title="새창열림">국가보훈부</a></li>
+									<li><a href="http://www.mcst.go.kr/" target="_blank" title="새창열림">문화체육관광부</a></li>
+									<li><a href="http://www.mafra.go.kr/" target="_blank" title="새창열림">농림축산식품부</a></li>
+									<li><a href="http://motir.go.kr" target="_blank" title="새창열림">산업통상부</a></li>
+									<li><a href="http://www.mohw.go.kr/" target="_blank" title="새창열림">보건복지부</a></li>
+									<li><a href="http://www.me.go.kr/" target="_blank" title="새창열림">기후에너지환경부</a></li>
+									<li><a href="http://www.moel.go.kr/" target="_blank" title="새창열림">고용노동부</a></li>
+									<li><a href="http://www.mogef.go.kr/" target="_blank" title="새창열림">성평등가족부</a></li>
+									<li><a href="http://www.molit.go.kr/" target="_blank" title="새창열림">국토교통부</a></li>
+									<li><a href="http://www.mof.go.kr/" target="_blank" title="새창열림">해양수산부</a></li>
+									<li><a href="http://www.smba.go.kr/" target="_blank" title="새창열림">중소벤처기업부</a></li>
+									<li class="devide"><a href="javascript:void(0);" title="[ 5처 ]">[ 5처 ]</a></li>		
+									<li><a href="http://www.mpm.go.kr" target="_blank" title="새창열림">인사혁신처</a></li>
+									<li><a href="http://www.moleg.go.kr/" target="_blank" title="새창열림">법제처</a></li>
+									<li><a href="http://www.mfds.go.kr/" target="_blank" title="새창열림">식품의약품안전처</a></li>			
+									<li><a href="http://www.moip.go.kr/" target="_blank" title="새창열림">지식재산처</a></li>
+									<li><a href="http://kostat.go.kr/" target="_blank" title="새창열림">국가데이터처</a></li>
+									<li class="devide"><a href="javascript:void(0);" title="[ 18청 ]">[ 18청 ]</a></li>
+									<li><a href="http://www.nts.go.kr/" target="_blank" title="새창열림">국세청</a></li>
+									<li><a href="http://www.customs.go.kr/" target="_blank" title="새창열림">관세청</a></li>
+									<li><a href="http://www.pps.go.kr/" target="_blank" title="새창열림">조달청</a></li>									
+									<li><a href="http://oka.go.kr/" target="_blank" title="새창열림">재외동포청</a></li>
+									<li><a href="http://www.spo.go.kr/" target="_blank" title="새창열림">검찰청</a></li>
+									<li><a href="http://www.mma.go.kr/" target="_blank" title="새창열림">병무청</a></li>
+									<li><a href="http://www.dapa.go.kr/" target="_blank" title="새창열림">방위사업청</a></li>
+									<li><a href="http://www.police.go.kr/" target="_blank" title="새창열림">경찰청</a></li>
+									<li><a href="http://www.nfa.go.kr/nfa/" target="_blank" title="새창열림">소방청</a></li>
+									<li><a href="http://www.khs.go.kr" target="_blank" title="새창열림">국가유산청</a></li>
+									<li><a href="http://www.rda.go.kr/" target="_blank" title="새창열림">농촌진흥청</a></li>
+									<li><a href="http://www.forest.go.kr/" target="_blank" title="새창열림">산림청</a></li>									
+									<li><a href="http://www.kdca.go.kr" target="_blank" title="새창열림">질병관리청</a></li>							
+									<li><a href="http://www.kma.go.kr/" target="_blank" title="새창열림">기상청</a></li>
+									<li><a href="http://www.naacc.go.kr/" target="_blank" title="새창열림">행정중심복합도시건설청</a></li>
+									<li><a href="http://www.saemangeum.go.kr/" target="_blank" title="새창열림">새만금개발청</a></li>	
+									<li><a href="http://www.kcg.go.kr" target="_blank" title="새창열림">해양경찰청</a></li>
+									<li><a href="http://kasa.go.kr" target="_blank" title="새창열림">우주항공청</a></li>
+								</ul>
+								<span class="arr"></span>
+							</li>					
+							<li><a href="javascript:void(0);" title="열기">기상관련단체</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.kmiti.or.kr" target="_blank" title="새창열림">한국기상산업기술원</a></li>
+									<li><a href="http://www.apcc21.org" target="_blank" title="새창열림">APEC기후센터</a></li>
+									<li><a href="http://www.kiaps.org" target="_blank" title="새창열림">차세대수치예보모델개발사업단</a></li>
+								</ul>
+								<span class="arr"></span>
+							</li>
+							<li><a href="javascript:void(0);" title="열기">외국 기상청</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.weather.gov/" target="_blank" title="새창열림">미국</a></li>
+									<li><a href="http://www.jma.go.jp" target="_blank" title="새창열림">일본</a></li>
+									<li><a href="http://www.cma.gov.cn" target="_blank" title="새창열림">중국</a></li>
+									<li><a href="http://www.metoffice.gov.uk/" target="_blank" title="새창열림">영국</a></li>
+									<li><a href="http://www.meteofrance.com" target="_blank" title="새창열림">프랑스</a></li>
+									<li><a href="http://www.wmo.int" target="_blank" title="새창열림">세계기상기구WMO</a></li>
+								</ul>
+								<span class="arr"></span>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="f_2nd">
+					<div class="f_con_top pc">
+						<a href="/kma/guide/privacy.jsp" style="font-weight:600;" class="pc">개인정보처리방침</a>
+						<a href="/kma/guide/siteinfo.jsp" class="pc">이용안내</a>
+						<a href="/kma/guide/faq.jsp">자주 묻는 질문</a>
+						<a href="/kma/guide/copyright.jsp" class="pc">저작권보호 및 정책</a>
+						<a href="/kma/guide/accessibility.jsp">웹접근성</a>
+						<a href="/kma/guide/feedback.jsp">누리집 오류 건의</a>
+						<a href="/kma/org/system/org_chart.jsp" class="pc">전화번호안내</a>
+						<a href="/kma/org/system/org_staff.jsp" class="pc">부서&amp;직원찾기</a>
+						<a href="/kma/guide/viewer.jsp">문서보기 프로그램 내려받기</a>
+						<span class="mobile">기상청 업무에 관한 문의는 
+						<a href="https://www.epeople.go.kr/nep/pttn/gnrlPttn/PttnRqstWrtnInfo.paid" target="_blank" style="font-weight: 600;">국민신문고</a>를 이용해주시기 바랍니다.</span>
+					</div>
+					
+					<div class="f_con_bot">
+						<div>
+							<div><strong>대전</strong> (35208) 대전광역시 서구 청사로 189 정부대전청사 1동 11~14층 / 전화 <a href="tel:042-481-7500" class="tel">(042)481-7500</a><br>
+							<strong>서울</strong> (07062) 서울특별시 동작구 여의대방로16길 61 / 전화 <a href="tel:02-2181-0900" class="tel">(02)2181-0900</a><br>
+							</div>
+							<div>
+								<span class="pc"><strong>전자우편</strong>(웹사이트 관련 문의):  webmasterkma@korea.kr<br /> Copyright © 2025 KMA. All Rights RESERVED</span>
+								<span class="mobile">전자우편(웹사이트 관련 문의):  webmasterkma@korea.kr</span>
+							</div>
+							<div class="mark">
+								<span class="mark_2025" role="img" aria-label="전국 국번없이 기상콜센터(365일 24시간) 131(유료)"></span>
+								<a href="http://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank" title="새창열림">
+									<img src="/kma/resources/images/common/f_3rd_1_25.png" alt="(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)" width="50">
+								</a>
+							</div>
+							<div class="f_line2 mobile"></div>
+							<div class="f_guide mobile">
+								<ul>
+									<li><a href="/kma/guide/privacy.jsp" style="font-weight:600;">개인정보처리방침</a></li>
+									<li><a href="/kma/guide/siteinfo.jsp">이용안내</a></li>
+									<li><a href="/kma/guide/copyright.jsp">저작권보호 및 정책</a></li>
+								</ul>
+							</div>
+							<div class="mobile">Copyright © 2025 KMA. All Rights RESERVED</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	</div>
+</body>
+</html>
+ | 온도: TYPE html>
+
+<html lang="ko">
+	<head>
+	<meta charset="utf-8" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	
+	<meta name="robots" content="all">
+	
+	<meta name="keywords" content="기상청-주요업무, 정보공개, 국민참여, 디지털간행물, 기상청뉴스, 기관소개 안내">
+	<meta name="description" content="기상청-주요업무, 정보공개, 국민참여, 디지털간행물, 기상청뉴스, 기관소개 안내">
+	<meta name="author" content="기상청">
+	<meta name="classification" content="기상청">
+	<title>기상청</title>
+	<meta name="decorator" content="kma-popup"/>
+	<link rel="apple-touch-icon-precomposed" href="/kma/resources/images/common/favicon.ico">
+	<link rel="shortcut icon" href="/kma/resources/images/common/favicon.ico">
+	
+	<meta property="og:title" content="기상청">
+	<meta property="og:image" content="https://www.kma.go.kr/kma/iphone-shortcut.png">
+	
+	<link rel="stylesheet" type="text/css" href="/kma/resources/css/common.css?ver=2022121919">
+	<link rel="stylesheet" type="text/css" href="/kma/resources/css/media.css?ver=2022121919">
+	
+	<script src="/kma/resources/js/jquery-1.11.3.min.js"></script>
+	<script src="/kma/resources/js/jquery-ui.js"></script>
+	<script src="/kma/resources/js/common.js?ver=2022121919"></script>
+	<style>
+		.error { max-width:1200px; margin:auto; min-height:400px; background:url(/kma/resources/images/gisang.png) 160px 80px no-repeat; background-size:200px auto;}
+		.error div.main { padding:120px 10px 10px 420px; font-weight:500; color:#013a68;}
+		.error div.main p { padding-left:10px; font-size:20px; }
+		.error div.main p.heading { padding-left:0px; font-size:26px; font-weight:600; }
+		.error div.main p.heading em { font-weight:900; font-size:30px; }
+		.error div.main p.email {padding-left:10px;}
+		.error div.main p.tel { padding-left:25px;}
+		.error div.main p a { color:#013a68; font-size:20px; }
+		.txt {padding: 40px 10px 105px 172px; font-weight:500; color:#013a68; }
+		.txt p{font-size:20px;}
+		.txt p a { color:#013a68; font-size:20px; }
+		@media screen and (max-width:768px){
+			.error { background-position: center 60px; background-size:150px auto;}
+			.error div.main { padding:10px 0px; padding-top:230px}
+			.error div.main p { text-align:center; font-size:15px; }
+			.error div.main p.heading { font-size:18px; }
+			.error div.main p.heading em { font-size:18px; }
+			.error div.main p.email { font-size:15px; }
+			.error div.main p.tel { font-size:15px; }
+			.error div.main p a { color:#013a68; font-size:15px; }
+
+			.txt{ padding:18px 25px 40px 25px;}
+			.txt p { font-size:15px; }
+			.txt p a { color:#013a68; font-size:15px; }
+		}
+	</style>
+</head>
+<body>
+	<div id="body_wrap">
+			
+	
+	<div class="eg-nuri-top">
+		<h1>이 누리집은 대한민국 공식 전자정부 누리집입니다.</h1>
+	</div>
+	<div class="skip_nav">
+		<a href="#gnavi">메인메뉴 바로가기</a>
+		<a href="#container">본문 바로가기</a>
+	</div>
+	<div class="eg-wrap">
+		<!-- 메인 eg-area -->
+		<div class="eg-area main">
+			<h1>"하늘을 친구처럼, 국민을 하늘처럼"</h1>
+		</div>
+		<!-- 서브 eg-area -->
+		<!-- <div class="eg-area">
+			<h1>이 누리집은 대한민국 공식 전자정부 누리집입니다.</h1>
+		</div> -->
+
+
+		<div class="option">
+			<div class="sch_form_group">
+				<form name="global_sch_form" action="/kma/sch/search.jsp" method="get">
+					<label for="global_sch_q">검색어</label>
+					<input type="text" id="global_sch_q" name="q" placeholder="검색어를 입력하세요.">
+					<input type="submit" id="global_sch_go" name="go" value="검색">
+				</form>
+			</div>
+			<div class="sel lang">
+				<div>
+					<a href="javascript:void(0);" class="allMenuToggle">사이트맵</a>
+					<!-- 사아트맵 -->
+					<div class="allMenu">
+						<div class="allMenuCont">
+							<ul class="allMenuList">
+								
+							</ul>
+							<!-- //.allMenuList -->
+						</div>
+						<!-- //.allMenuCont -->
+					</div>
+					<!-- // 사이트맵 -->
+				</div>
+				<a href="javascript:void(0);" title="리스트열기">Language</a>
+				<ul class="target">
+					<li><a href="https://www.kma.go.kr/neng/index.do" target="_blank" title="새창열림">English</a></li>
+					<li><a href="https://www.kma.go.kr/nchn/index.do" target="_blank" title="새창열림">中文</a></li>
+					<li><a href="https://www.kma.go.kr/njpn/index.do" target="_blank" title="새창열림">日本語</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+
+
+
+<!-- S : GNB -->
+<div id="header">
+	<div class="global_bot_wrap">
+		<div class="global_bot">
+			<h1>
+				<a href="/kma/" class="sprite">기상청</a>
+			</h1>
+			<div class="ham_btn_wrap mobile">
+				<a href="javascript:void(0);" class="ham_btn_search">모바일 검색 버튼</a> 
+				<a href="javascript:void(0);" class="ham_btn">모바일 메뉴 버튼</a>
+			</div>
+			<div class="gnb_wrap">
+				<!-- S : GNB -->
+				<div class="gnb gnb_bg6" id="gnavi">
+					<ul>
+						
+					</ul>
+					<a href="https://www.weather.go.kr/w/index.do" class="" target="_blank" title="새창열림"> 
+						<span>
+							<img src="/kma/resources/images/common/icon_weather_nuri.png" alt="날씨누리" title="새창열림">
+						</span>
+					</a>
+				</div>
+				<!-- E : GNB -->
+
+				<!-- ham = hamburger = gnb_m -->
+
+				<!-- E : ham -->
+			</div>
+		</div>
+		<!-- ham = hamburger = gnb_m -->
+		<div class="ham mobile">
+			<div class="ham_top_wrap">
+				<a href="/kma/" class="home"><span>홈</span></a>
+				<div class="option">
+					<div class="sel lang">
+						<a href="javascript:void(0);">Language</a>
+						<ul class="target">
+							<li><a href="https://www.kma.go.kr/neng/index.do">English</a></li>
+							<li><a href="https://www.kma.go.kr/nchn/index.do">中文</a></li>
+							<li><a href="https://www.kma.go.kr/njpn/index.do">日本語</a></li>
+						</ul>
+						<span class="arr"></span>
+					</div>
+					<div class="sel wd">
+						<a href="https://www.weather.go.kr/w/index.do" target="_blank" title="날씨누리 새창열림">날씨누리</a>
+					</div>
+				</div>
+				<a href="javascript:void(0);" class="ham_close" style="display: inline;"><span>햄버거메뉴 닫기</span></a>
+
+			</div>
+			<ul>
+				
+				
+			</ul>
+		</div>
+		<!-- E : ham -->
+	</div>
+	<!-- //.global -->
+</div>
+<!-- //#header -->
+<!-- S : GNB -->
+
+
+		<div id="container">
+			<div class="error">
+				<div class="main">
+					<p class="heading"><em>&ldquo;</em>서비스 이용에 불편을 드려 죄송합니다.<em>&rdquo;</em></p>
+					<p>서비스 장애가 계속될 경우, 아래로 문의 바랍니다.</p>
+					<p class="email">이메일: <a href="mailto:webmasterkma@korea.kr">webmasterkma@korea.kr</a></p>
+					<p class="email">전화: <a href='tel:02-2181-0900'>(02)2181-0900</a>, <a href='tel:042-481-7500'>(042)481-7500</a><br/>
+					기상 관련 문의: 기상콜센터(131)					
+					</p>
+				</div>
+				<div class="txt">
+					<p>
+						※ 날씨누리에 접속 시 해당화면이 나타났다면 다음을 확인해주세요.<br>
+						- 『 <a href="https://www.weather.go.kr/w/index.do" target="_blank">www.weather.go.kr/w/</a> 』 로 시작되는 URL로 접속<br>
+						- 기상청 날씨누리는 『 <a href="https://www.weather.go.kr/w/index.do" target="_blank">www.weather.go.kr/w/</a> 』 시작되는 페이지만 운영합니다.(21년 이후)<br>
+						- 그 외 접속 페이지는 현재 서비스 및 관리를 하지 않는 페이지 임을 알려드립니다.					
+					</p>
+				</div>
+			</div>
+		</div>
+		
+	
+	<div id="footer">
+		<span class="f_line mobile"></span>
+		<a href="" class="f_semicircle mobile"><strong>기상청 관련 누리집</strong> <span>펼치기</span></a>
+		<div class="f_bot_wrap">
+			<div class="f_bot">				
+				<div class="f_1st pc">
+					<div class="f_con_mid">
+						<ul>
+							<li>
+								<a href="javascript:void(0);" title="열기">소속기관</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.kma.go.kr/metropolitan/html/main/index.jsp" target="_blank" title="새창열림">수도권기상청</a></li>
+									<li><a href="http://www.kma.go.kr/busan/html/main/index.jsp" target="_blank" title="새창열림">부산지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/gwangju/html/main/index.jsp" target="_blank" title="새창열림">광주지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/gangwon/html/main/index.jsp" target="_blank" title="새창열림">강원지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/daejeon/html/main/index.jsp" target="_blank" title="새창열림">대전지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/daegu/html/main/index.jsp" target="_blank" title="새창열림">대구지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/jeju/html/main/index.jsp" target="_blank" title="새창열림">제주지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/cheongju/html/main/index.jsp" target="_blank" title="새창열림">청주기상지청</a></li>
+									<li><a href="http://www.kma.go.kr/jeonju/html/main/index.jsp" target="_blank" title="새창열림">전주기상지청</a></li>
+									<li><a href="http://www.kma.go.kr/nmc/html/main/index.jsp" target="_blank" title="새창열림">수치예보센터</a></li>
+									<li><a href="http://www.kma.go.kr/mhi" target="_blank" title="새창열림">기상기후인재개발원</a></li>
+									<li><a href="http://nmsc.kma.go.kr" target="_blank" title="새창열림">국가기상위성센터</a></li>
+									<li><a href="http://amo.kma.go.kr" target="_blank" title="새창열림">항공기상청</a></li>
+									<li><a href="http://www.nims.go.kr/" target="_blank" title="새창열림">국립기상과학원</a></li>
+									<li><a href="http://radar.kma.go.kr" target="_blank" title="새창열림">기상레이더센터</a></li>
+									<li><a href="http://www.kma.go.kr/super" target="_blank" title="새창열림">국가기상슈퍼컴퓨터센터</a></li>									
+								</ul>
+								<span class="arr"></span>
+							</li>
+							<li><a href="javascript:void(0);" title="열기">방재유관기관</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://119.seoul.go.kr/" target="_blank" title="새창열림">서울종합방재센터</a></li>
+									<li><a href="http://www.ndmi.go.kr" target="_blank" title="새창열림">국립재난안전연구원</a></li>
+									<li><a href="http://www.hrfco.go.kr/" target="_blank" title="새창열림">한강홍수통제소</a></li>
+									<li><a href="http://www.mois.go.kr/frt/a01/frtMain.do" target="_blank" title="새창열림">중앙재난안전대책본부</a></li>
+									<li><a href="http://www.airkorea.or.kr" target="_blank" title="새창열림">대기오염도실시간공개</a></li>
+									<li><a href="http://www.wamis.go.kr" target="_blank" title="새창열림">국가수자원관리종합정보시스템</a></li>	
+									<li><a href="http://d.kbs.co.kr" target="_blank" title="새창열림">KBS재난포털</a></li>	
+								</ul>
+								<span class="arr"></span>
+							</li>
+							<li><a href="javascript:void(0);" title="열기">주요행정기관</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.president.go.kr/" target="_blank" title="새창열림">대한민국 대통령실</a></li>
+									<li><a href="http://www.opm.go.kr/" target="_blank" title="새창열림">국무총리실</a></li>
+									<li><a href="http://www.bai.go.kr/" target="_blank" title="새창열림">감사원</a></li>
+									<li><a href="http://www.nis.go.kr/" target="_blank" title="새창열림">국가정보원</a></li>
+									<li><a href="http://www.kcc.go.kr/" target="_blank" title="새창열림">방송미디어통신위원회</a></li>
+									<li><a href="http://www.humanrights.go.kr/" target="_blank" title="새창열림">국가인권위원회</a></li>
+									<li><a href="http://www.ftc.go.kr/" target="_blank" title="새창열림">공정거래위원회</a></li>
+									<li><a href="http://www.fsc.go.kr/" target="_blank" title="새창열림">금융위원회</a></li>
+									<li><a href="http://www.acrc.go.kr/" target="_blank" title="새창열림">국민권익위원회</a></li>
+									<li><a href="http://nas.na.go.kr/" target="_blank" title="새창열림">국회사무처</a></li>
+									<li class="devide"><a href="javascript:void(0);" title="[ 19부 ]">[ 19부 ]</a></li>
+									<li><a href="http://www.moef.go.kr/" target="_blank" title="새창열림">기획재정부</a></li>
+									<li><a href="http://www.msit.go.kr/" target="_blank" title="새창열림">과학기술정보통신부</a></li>
+									<li><a href="http://www.moe.go.kr/" target="_blank" title="새창열림">교육부</a></li>
+									<li><a href="http://www.mofat.go.kr" target="_blank" title="새창열림">외교부</a></li>
+									<li><a href="http://www.unikorea.go.kr/" target="_blank" title="새창열림">통일부</a></li>
+									<li><a href="http://www.moj.go.kr/" target="_blank" title="새창열림">법무부</a></li>
+									<li><a href="http://www.mnd.go.kr/" target="_blank" title="새창열림">국방부</a></li>
+									<li><a href="http://www.mois.go.kr/" target="_blank" title="새창열림">행정안전부</a></li>
+									<li><a href="http://www.mpva.go.kr/" target="_blank" title="새창열림">국가보훈부</a></li>
+									<li><a href="http://www.mcst.go.kr/" target="_blank" title="새창열림">문화체육관광부</a></li>
+									<li><a href="http://www.mafra.go.kr/" target="_blank" title="새창열림">농림축산식품부</a></li>
+									<li><a href="http://motir.go.kr" target="_blank" title="새창열림">산업통상부</a></li>
+									<li><a href="http://www.mohw.go.kr/" target="_blank" title="새창열림">보건복지부</a></li>
+									<li><a href="http://www.me.go.kr/" target="_blank" title="새창열림">기후에너지환경부</a></li>
+									<li><a href="http://www.moel.go.kr/" target="_blank" title="새창열림">고용노동부</a></li>
+									<li><a href="http://www.mogef.go.kr/" target="_blank" title="새창열림">성평등가족부</a></li>
+									<li><a href="http://www.molit.go.kr/" target="_blank" title="새창열림">국토교통부</a></li>
+									<li><a href="http://www.mof.go.kr/" target="_blank" title="새창열림">해양수산부</a></li>
+									<li><a href="http://www.smba.go.kr/" target="_blank" title="새창열림">중소벤처기업부</a></li>
+									<li class="devide"><a href="javascript:void(0);" title="[ 5처 ]">[ 5처 ]</a></li>		
+									<li><a href="http://www.mpm.go.kr" target="_blank" title="새창열림">인사혁신처</a></li>
+									<li><a href="http://www.moleg.go.kr/" target="_blank" title="새창열림">법제처</a></li>
+									<li><a href="http://www.mfds.go.kr/" target="_blank" title="새창열림">식품의약품안전처</a></li>			
+									<li><a href="http://www.moip.go.kr/" target="_blank" title="새창열림">지식재산처</a></li>
+									<li><a href="http://kostat.go.kr/" target="_blank" title="새창열림">국가데이터처</a></li>
+									<li class="devide"><a href="javascript:void(0);" title="[ 18청 ]">[ 18청 ]</a></li>
+									<li><a href="http://www.nts.go.kr/" target="_blank" title="새창열림">국세청</a></li>
+									<li><a href="http://www.customs.go.kr/" target="_blank" title="새창열림">관세청</a></li>
+									<li><a href="http://www.pps.go.kr/" target="_blank" title="새창열림">조달청</a></li>									
+									<li><a href="http://oka.go.kr/" target="_blank" title="새창열림">재외동포청</a></li>
+									<li><a href="http://www.spo.go.kr/" target="_blank" title="새창열림">검찰청</a></li>
+									<li><a href="http://www.mma.go.kr/" target="_blank" title="새창열림">병무청</a></li>
+									<li><a href="http://www.dapa.go.kr/" target="_blank" title="새창열림">방위사업청</a></li>
+									<li><a href="http://www.police.go.kr/" target="_blank" title="새창열림">경찰청</a></li>
+									<li><a href="http://www.nfa.go.kr/nfa/" target="_blank" title="새창열림">소방청</a></li>
+									<li><a href="http://www.khs.go.kr" target="_blank" title="새창열림">국가유산청</a></li>
+									<li><a href="http://www.rda.go.kr/" target="_blank" title="새창열림">농촌진흥청</a></li>
+									<li><a href="http://www.forest.go.kr/" target="_blank" title="새창열림">산림청</a></li>									
+									<li><a href="http://www.kdca.go.kr" target="_blank" title="새창열림">질병관리청</a></li>							
+									<li><a href="http://www.kma.go.kr/" target="_blank" title="새창열림">기상청</a></li>
+									<li><a href="http://www.naacc.go.kr/" target="_blank" title="새창열림">행정중심복합도시건설청</a></li>
+									<li><a href="http://www.saemangeum.go.kr/" target="_blank" title="새창열림">새만금개발청</a></li>	
+									<li><a href="http://www.kcg.go.kr" target="_blank" title="새창열림">해양경찰청</a></li>
+									<li><a href="http://kasa.go.kr" target="_blank" title="새창열림">우주항공청</a></li>
+								</ul>
+								<span class="arr"></span>
+							</li>					
+							<li><a href="javascript:void(0);" title="열기">기상관련단체</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.kmiti.or.kr" target="_blank" title="새창열림">한국기상산업기술원</a></li>
+									<li><a href="http://www.apcc21.org" target="_blank" title="새창열림">APEC기후센터</a></li>
+									<li><a href="http://www.kiaps.org" target="_blank" title="새창열림">차세대수치예보모델개발사업단</a></li>
+								</ul>
+								<span class="arr"></span>
+							</li>
+							<li><a href="javascript:void(0);" title="열기">외국 기상청</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.weather.gov/" target="_blank" title="새창열림">미국</a></li>
+									<li><a href="http://www.jma.go.jp" target="_blank" title="새창열림">일본</a></li>
+									<li><a href="http://www.cma.gov.cn" target="_blank" title="새창열림">중국</a></li>
+									<li><a href="http://www.metoffice.gov.uk/" target="_blank" title="새창열림">영국</a></li>
+									<li><a href="http://www.meteofrance.com" target="_blank" title="새창열림">프랑스</a></li>
+									<li><a href="http://www.wmo.int" target="_blank" title="새창열림">세계기상기구WMO</a></li>
+								</ul>
+								<span class="arr"></span>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="f_2nd">
+					<div class="f_con_top pc">
+						<a href="/kma/guide/privacy.jsp" style="font-weight:600;" class="pc">개인정보처리방침</a>
+						<a href="/kma/guide/siteinfo.jsp" class="pc">이용안내</a>
+						<a href="/kma/guide/faq.jsp">자주 묻는 질문</a>
+						<a href="/kma/guide/copyright.jsp" class="pc">저작권보호 및 정책</a>
+						<a href="/kma/guide/accessibility.jsp">웹접근성</a>
+						<a href="/kma/guide/feedback.jsp">누리집 오류 건의</a>
+						<a href="/kma/org/system/org_chart.jsp" class="pc">전화번호안내</a>
+						<a href="/kma/org/system/org_staff.jsp" class="pc">부서&amp;직원찾기</a>
+						<a href="/kma/guide/viewer.jsp">문서보기 프로그램 내려받기</a>
+						<span class="mobile">기상청 업무에 관한 문의는 
+						<a href="https://www.epeople.go.kr/nep/pttn/gnrlPttn/PttnRqstWrtnInfo.paid" target="_blank" style="font-weight: 600;">국민신문고</a>를 이용해주시기 바랍니다.</span>
+					</div>
+					
+					<div class="f_con_bot">
+						<div>
+							<div><strong>대전</strong> (35208) 대전광역시 서구 청사로 189 정부대전청사 1동 11~14층 / 전화 <a href="tel:042-481-7500" class="tel">(042)481-7500</a><br>
+							<strong>서울</strong> (07062) 서울특별시 동작구 여의대방로16길 61 / 전화 <a href="tel:02-2181-0900" class="tel">(02)2181-0900</a><br>
+							</div>
+							<div>
+								<span class="pc"><strong>전자우편</strong>(웹사이트 관련 문의):  webmasterkma@korea.kr<br /> Copyright © 2025 KMA. All Rights RESERVED</span>
+								<span class="mobile">전자우편(웹사이트 관련 문의):  webmasterkma@korea.kr</span>
+							</div>
+							<div class="mark">
+								<span class="mark_2025" role="img" aria-label="전국 국번없이 기상콜센터(365일 24시간) 131(유료)"></span>
+								<a href="http://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank" title="새창열림">
+									<img src="/kma/resources/images/common/f_3rd_1_25.png" alt="(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)" width="50">
+								</a>
+							</div>
+							<div class="f_line2 mobile"></div>
+							<div class="f_guide mobile">
+								<ul>
+									<li><a href="/kma/guide/privacy.jsp" style="font-weight:600;">개인정보처리방침</a></li>
+									<li><a href="/kma/guide/siteinfo.jsp">이용안내</a></li>
+									<li><a href="/kma/guide/copyright.jsp">저작권보호 및 정책</a></li>
+								</ul>
+							</div>
+							<div class="mobile">Copyright © 2025 KMA. All Rights RESERVED</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	</div>
+</body>
+</html>
+도 | 강수확률: CTYPE html>
+
+<html lang="ko">
+	<head>
+	<meta charset="utf-8" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	
+	<meta name="robots" content="all">
+	
+	<meta name="keywords" content="기상청-주요업무, 정보공개, 국민참여, 디지털간행물, 기상청뉴스, 기관소개 안내">
+	<meta name="description" content="기상청-주요업무, 정보공개, 국민참여, 디지털간행물, 기상청뉴스, 기관소개 안내">
+	<meta name="author" content="기상청">
+	<meta name="classification" content="기상청">
+	<title>기상청</title>
+	<meta name="decorator" content="kma-popup"/>
+	<link rel="apple-touch-icon-precomposed" href="/kma/resources/images/common/favicon.ico">
+	<link rel="shortcut icon" href="/kma/resources/images/common/favicon.ico">
+	
+	<meta property="og:title" content="기상청">
+	<meta property="og:image" content="https://www.kma.go.kr/kma/iphone-shortcut.png">
+	
+	<link rel="stylesheet" type="text/css" href="/kma/resources/css/common.css?ver=2022121919">
+	<link rel="stylesheet" type="text/css" href="/kma/resources/css/media.css?ver=2022121919">
+	
+	<script src="/kma/resources/js/jquery-1.11.3.min.js"></script>
+	<script src="/kma/resources/js/jquery-ui.js"></script>
+	<script src="/kma/resources/js/common.js?ver=2022121919"></script>
+	<style>
+		.error { max-width:1200px; margin:auto; min-height:400px; background:url(/kma/resources/images/gisang.png) 160px 80px no-repeat; background-size:200px auto;}
+		.error div.main { padding:120px 10px 10px 420px; font-weight:500; color:#013a68;}
+		.error div.main p { padding-left:10px; font-size:20px; }
+		.error div.main p.heading { padding-left:0px; font-size:26px; font-weight:600; }
+		.error div.main p.heading em { font-weight:900; font-size:30px; }
+		.error div.main p.email {padding-left:10px;}
+		.error div.main p.tel { padding-left:25px;}
+		.error div.main p a { color:#013a68; font-size:20px; }
+		.txt {padding: 40px 10px 105px 172px; font-weight:500; color:#013a68; }
+		.txt p{font-size:20px;}
+		.txt p a { color:#013a68; font-size:20px; }
+		@media screen and (max-width:768px){
+			.error { background-position: center 60px; background-size:150px auto;}
+			.error div.main { padding:10px 0px; padding-top:230px}
+			.error div.main p { text-align:center; font-size:15px; }
+			.error div.main p.heading { font-size:18px; }
+			.error div.main p.heading em { font-size:18px; }
+			.error div.main p.email { font-size:15px; }
+			.error div.main p.tel { font-size:15px; }
+			.error div.main p a { color:#013a68; font-size:15px; }
+
+			.txt{ padding:18px 25px 40px 25px;}
+			.txt p { font-size:15px; }
+			.txt p a { color:#013a68; font-size:15px; }
+		}
+	</style>
+</head>
+<body>
+	<div id="body_wrap">
+			
+	
+	<div class="eg-nuri-top">
+		<h1>이 누리집은 대한민국 공식 전자정부 누리집입니다.</h1>
+	</div>
+	<div class="skip_nav">
+		<a href="#gnavi">메인메뉴 바로가기</a>
+		<a href="#container">본문 바로가기</a>
+	</div>
+	<div class="eg-wrap">
+		<!-- 메인 eg-area -->
+		<div class="eg-area main">
+			<h1>"하늘을 친구처럼, 국민을 하늘처럼"</h1>
+		</div>
+		<!-- 서브 eg-area -->
+		<!-- <div class="eg-area">
+			<h1>이 누리집은 대한민국 공식 전자정부 누리집입니다.</h1>
+		</div> -->
+
+
+		<div class="option">
+			<div class="sch_form_group">
+				<form name="global_sch_form" action="/kma/sch/search.jsp" method="get">
+					<label for="global_sch_q">검색어</label>
+					<input type="text" id="global_sch_q" name="q" placeholder="검색어를 입력하세요.">
+					<input type="submit" id="global_sch_go" name="go" value="검색">
+				</form>
+			</div>
+			<div class="sel lang">
+				<div>
+					<a href="javascript:void(0);" class="allMenuToggle">사이트맵</a>
+					<!-- 사아트맵 -->
+					<div class="allMenu">
+						<div class="allMenuCont">
+							<ul class="allMenuList">
+								
+							</ul>
+							<!-- //.allMenuList -->
+						</div>
+						<!-- //.allMenuCont -->
+					</div>
+					<!-- // 사이트맵 -->
+				</div>
+				<a href="javascript:void(0);" title="리스트열기">Language</a>
+				<ul class="target">
+					<li><a href="https://www.kma.go.kr/neng/index.do" target="_blank" title="새창열림">English</a></li>
+					<li><a href="https://www.kma.go.kr/nchn/index.do" target="_blank" title="새창열림">中文</a></li>
+					<li><a href="https://www.kma.go.kr/njpn/index.do" target="_blank" title="새창열림">日本語</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+
+
+
+<!-- S : GNB -->
+<div id="header">
+	<div class="global_bot_wrap">
+		<div class="global_bot">
+			<h1>
+				<a href="/kma/" class="sprite">기상청</a>
+			</h1>
+			<div class="ham_btn_wrap mobile">
+				<a href="javascript:void(0);" class="ham_btn_search">모바일 검색 버튼</a> 
+				<a href="javascript:void(0);" class="ham_btn">모바일 메뉴 버튼</a>
+			</div>
+			<div class="gnb_wrap">
+				<!-- S : GNB -->
+				<div class="gnb gnb_bg6" id="gnavi">
+					<ul>
+						
+					</ul>
+					<a href="https://www.weather.go.kr/w/index.do" class="" target="_blank" title="새창열림"> 
+						<span>
+							<img src="/kma/resources/images/common/icon_weather_nuri.png" alt="날씨누리" title="새창열림">
+						</span>
+					</a>
+				</div>
+				<!-- E : GNB -->
+
+				<!-- ham = hamburger = gnb_m -->
+
+				<!-- E : ham -->
+			</div>
+		</div>
+		<!-- ham = hamburger = gnb_m -->
+		<div class="ham mobile">
+			<div class="ham_top_wrap">
+				<a href="/kma/" class="home"><span>홈</span></a>
+				<div class="option">
+					<div class="sel lang">
+						<a href="javascript:void(0);">Language</a>
+						<ul class="target">
+							<li><a href="https://www.kma.go.kr/neng/index.do">English</a></li>
+							<li><a href="https://www.kma.go.kr/nchn/index.do">中文</a></li>
+							<li><a href="https://www.kma.go.kr/njpn/index.do">日本語</a></li>
+						</ul>
+						<span class="arr"></span>
+					</div>
+					<div class="sel wd">
+						<a href="https://www.weather.go.kr/w/index.do" target="_blank" title="날씨누리 새창열림">날씨누리</a>
+					</div>
+				</div>
+				<a href="javascript:void(0);" class="ham_close" style="display: inline;"><span>햄버거메뉴 닫기</span></a>
+
+			</div>
+			<ul>
+				
+				
+			</ul>
+		</div>
+		<!-- E : ham -->
+	</div>
+	<!-- //.global -->
+</div>
+<!-- //#header -->
+<!-- S : GNB -->
+
+
+		<div id="container">
+			<div class="error">
+				<div class="main">
+					<p class="heading"><em>&ldquo;</em>서비스 이용에 불편을 드려 죄송합니다.<em>&rdquo;</em></p>
+					<p>서비스 장애가 계속될 경우, 아래로 문의 바랍니다.</p>
+					<p class="email">이메일: <a href="mailto:webmasterkma@korea.kr">webmasterkma@korea.kr</a></p>
+					<p class="email">전화: <a href='tel:02-2181-0900'>(02)2181-0900</a>, <a href='tel:042-481-7500'>(042)481-7500</a><br/>
+					기상 관련 문의: 기상콜센터(131)					
+					</p>
+				</div>
+				<div class="txt">
+					<p>
+						※ 날씨누리에 접속 시 해당화면이 나타났다면 다음을 확인해주세요.<br>
+						- 『 <a href="https://www.weather.go.kr/w/index.do" target="_blank">www.weather.go.kr/w/</a> 』 로 시작되는 URL로 접속<br>
+						- 기상청 날씨누리는 『 <a href="https://www.weather.go.kr/w/index.do" target="_blank">www.weather.go.kr/w/</a> 』 시작되는 페이지만 운영합니다.(21년 이후)<br>
+						- 그 외 접속 페이지는 현재 서비스 및 관리를 하지 않는 페이지 임을 알려드립니다.					
+					</p>
+				</div>
+			</div>
+		</div>
+		
+	
+	<div id="footer">
+		<span class="f_line mobile"></span>
+		<a href="" class="f_semicircle mobile"><strong>기상청 관련 누리집</strong> <span>펼치기</span></a>
+		<div class="f_bot_wrap">
+			<div class="f_bot">				
+				<div class="f_1st pc">
+					<div class="f_con_mid">
+						<ul>
+							<li>
+								<a href="javascript:void(0);" title="열기">소속기관</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.kma.go.kr/metropolitan/html/main/index.jsp" target="_blank" title="새창열림">수도권기상청</a></li>
+									<li><a href="http://www.kma.go.kr/busan/html/main/index.jsp" target="_blank" title="새창열림">부산지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/gwangju/html/main/index.jsp" target="_blank" title="새창열림">광주지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/gangwon/html/main/index.jsp" target="_blank" title="새창열림">강원지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/daejeon/html/main/index.jsp" target="_blank" title="새창열림">대전지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/daegu/html/main/index.jsp" target="_blank" title="새창열림">대구지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/jeju/html/main/index.jsp" target="_blank" title="새창열림">제주지방기상청</a></li>
+									<li><a href="http://www.kma.go.kr/cheongju/html/main/index.jsp" target="_blank" title="새창열림">청주기상지청</a></li>
+									<li><a href="http://www.kma.go.kr/jeonju/html/main/index.jsp" target="_blank" title="새창열림">전주기상지청</a></li>
+									<li><a href="http://www.kma.go.kr/nmc/html/main/index.jsp" target="_blank" title="새창열림">수치예보센터</a></li>
+									<li><a href="http://www.kma.go.kr/mhi" target="_blank" title="새창열림">기상기후인재개발원</a></li>
+									<li><a href="http://nmsc.kma.go.kr" target="_blank" title="새창열림">국가기상위성센터</a></li>
+									<li><a href="http://amo.kma.go.kr" target="_blank" title="새창열림">항공기상청</a></li>
+									<li><a href="http://www.nims.go.kr/" target="_blank" title="새창열림">국립기상과학원</a></li>
+									<li><a href="http://radar.kma.go.kr" target="_blank" title="새창열림">기상레이더센터</a></li>
+									<li><a href="http://www.kma.go.kr/super" target="_blank" title="새창열림">국가기상슈퍼컴퓨터센터</a></li>									
+								</ul>
+								<span class="arr"></span>
+							</li>
+							<li><a href="javascript:void(0);" title="열기">방재유관기관</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://119.seoul.go.kr/" target="_blank" title="새창열림">서울종합방재센터</a></li>
+									<li><a href="http://www.ndmi.go.kr" target="_blank" title="새창열림">국립재난안전연구원</a></li>
+									<li><a href="http://www.hrfco.go.kr/" target="_blank" title="새창열림">한강홍수통제소</a></li>
+									<li><a href="http://www.mois.go.kr/frt/a01/frtMain.do" target="_blank" title="새창열림">중앙재난안전대책본부</a></li>
+									<li><a href="http://www.airkorea.or.kr" target="_blank" title="새창열림">대기오염도실시간공개</a></li>
+									<li><a href="http://www.wamis.go.kr" target="_blank" title="새창열림">국가수자원관리종합정보시스템</a></li>	
+									<li><a href="http://d.kbs.co.kr" target="_blank" title="새창열림">KBS재난포털</a></li>	
+								</ul>
+								<span class="arr"></span>
+							</li>
+							<li><a href="javascript:void(0);" title="열기">주요행정기관</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.president.go.kr/" target="_blank" title="새창열림">대한민국 대통령실</a></li>
+									<li><a href="http://www.opm.go.kr/" target="_blank" title="새창열림">국무총리실</a></li>
+									<li><a href="http://www.bai.go.kr/" target="_blank" title="새창열림">감사원</a></li>
+									<li><a href="http://www.nis.go.kr/" target="_blank" title="새창열림">국가정보원</a></li>
+									<li><a href="http://www.kcc.go.kr/" target="_blank" title="새창열림">방송미디어통신위원회</a></li>
+									<li><a href="http://www.humanrights.go.kr/" target="_blank" title="새창열림">국가인권위원회</a></li>
+									<li><a href="http://www.ftc.go.kr/" target="_blank" title="새창열림">공정거래위원회</a></li>
+									<li><a href="http://www.fsc.go.kr/" target="_blank" title="새창열림">금융위원회</a></li>
+									<li><a href="http://www.acrc.go.kr/" target="_blank" title="새창열림">국민권익위원회</a></li>
+									<li><a href="http://nas.na.go.kr/" target="_blank" title="새창열림">국회사무처</a></li>
+									<li class="devide"><a href="javascript:void(0);" title="[ 19부 ]">[ 19부 ]</a></li>
+									<li><a href="http://www.moef.go.kr/" target="_blank" title="새창열림">기획재정부</a></li>
+									<li><a href="http://www.msit.go.kr/" target="_blank" title="새창열림">과학기술정보통신부</a></li>
+									<li><a href="http://www.moe.go.kr/" target="_blank" title="새창열림">교육부</a></li>
+									<li><a href="http://www.mofat.go.kr" target="_blank" title="새창열림">외교부</a></li>
+									<li><a href="http://www.unikorea.go.kr/" target="_blank" title="새창열림">통일부</a></li>
+									<li><a href="http://www.moj.go.kr/" target="_blank" title="새창열림">법무부</a></li>
+									<li><a href="http://www.mnd.go.kr/" target="_blank" title="새창열림">국방부</a></li>
+									<li><a href="http://www.mois.go.kr/" target="_blank" title="새창열림">행정안전부</a></li>
+									<li><a href="http://www.mpva.go.kr/" target="_blank" title="새창열림">국가보훈부</a></li>
+									<li><a href="http://www.mcst.go.kr/" target="_blank" title="새창열림">문화체육관광부</a></li>
+									<li><a href="http://www.mafra.go.kr/" target="_blank" title="새창열림">농림축산식품부</a></li>
+									<li><a href="http://motir.go.kr" target="_blank" title="새창열림">산업통상부</a></li>
+									<li><a href="http://www.mohw.go.kr/" target="_blank" title="새창열림">보건복지부</a></li>
+									<li><a href="http://www.me.go.kr/" target="_blank" title="새창열림">기후에너지환경부</a></li>
+									<li><a href="http://www.moel.go.kr/" target="_blank" title="새창열림">고용노동부</a></li>
+									<li><a href="http://www.mogef.go.kr/" target="_blank" title="새창열림">성평등가족부</a></li>
+									<li><a href="http://www.molit.go.kr/" target="_blank" title="새창열림">국토교통부</a></li>
+									<li><a href="http://www.mof.go.kr/" target="_blank" title="새창열림">해양수산부</a></li>
+									<li><a href="http://www.smba.go.kr/" target="_blank" title="새창열림">중소벤처기업부</a></li>
+									<li class="devide"><a href="javascript:void(0);" title="[ 5처 ]">[ 5처 ]</a></li>		
+									<li><a href="http://www.mpm.go.kr" target="_blank" title="새창열림">인사혁신처</a></li>
+									<li><a href="http://www.moleg.go.kr/" target="_blank" title="새창열림">법제처</a></li>
+									<li><a href="http://www.mfds.go.kr/" target="_blank" title="새창열림">식품의약품안전처</a></li>			
+									<li><a href="http://www.moip.go.kr/" target="_blank" title="새창열림">지식재산처</a></li>
+									<li><a href="http://kostat.go.kr/" target="_blank" title="새창열림">국가데이터처</a></li>
+									<li class="devide"><a href="javascript:void(0);" title="[ 18청 ]">[ 18청 ]</a></li>
+									<li><a href="http://www.nts.go.kr/" target="_blank" title="새창열림">국세청</a></li>
+									<li><a href="http://www.customs.go.kr/" target="_blank" title="새창열림">관세청</a></li>
+									<li><a href="http://www.pps.go.kr/" target="_blank" title="새창열림">조달청</a></li>									
+									<li><a href="http://oka.go.kr/" target="_blank" title="새창열림">재외동포청</a></li>
+									<li><a href="http://www.spo.go.kr/" target="_blank" title="새창열림">검찰청</a></li>
+									<li><a href="http://www.mma.go.kr/" target="_blank" title="새창열림">병무청</a></li>
+									<li><a href="http://www.dapa.go.kr/" target="_blank" title="새창열림">방위사업청</a></li>
+									<li><a href="http://www.police.go.kr/" target="_blank" title="새창열림">경찰청</a></li>
+									<li><a href="http://www.nfa.go.kr/nfa/" target="_blank" title="새창열림">소방청</a></li>
+									<li><a href="http://www.khs.go.kr" target="_blank" title="새창열림">국가유산청</a></li>
+									<li><a href="http://www.rda.go.kr/" target="_blank" title="새창열림">농촌진흥청</a></li>
+									<li><a href="http://www.forest.go.kr/" target="_blank" title="새창열림">산림청</a></li>									
+									<li><a href="http://www.kdca.go.kr" target="_blank" title="새창열림">질병관리청</a></li>							
+									<li><a href="http://www.kma.go.kr/" target="_blank" title="새창열림">기상청</a></li>
+									<li><a href="http://www.naacc.go.kr/" target="_blank" title="새창열림">행정중심복합도시건설청</a></li>
+									<li><a href="http://www.saemangeum.go.kr/" target="_blank" title="새창열림">새만금개발청</a></li>	
+									<li><a href="http://www.kcg.go.kr" target="_blank" title="새창열림">해양경찰청</a></li>
+									<li><a href="http://kasa.go.kr" target="_blank" title="새창열림">우주항공청</a></li>
+								</ul>
+								<span class="arr"></span>
+							</li>					
+							<li><a href="javascript:void(0);" title="열기">기상관련단체</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.kmiti.or.kr" target="_blank" title="새창열림">한국기상산업기술원</a></li>
+									<li><a href="http://www.apcc21.org" target="_blank" title="새창열림">APEC기후센터</a></li>
+									<li><a href="http://www.kiaps.org" target="_blank" title="새창열림">차세대수치예보모델개발사업단</a></li>
+								</ul>
+								<span class="arr"></span>
+							</li>
+							<li><a href="javascript:void(0);" title="열기">외국 기상청</a>
+								<ul class="link_list" style="display: none;">
+									<li><a href="http://www.weather.gov/" target="_blank" title="새창열림">미국</a></li>
+									<li><a href="http://www.jma.go.jp" target="_blank" title="새창열림">일본</a></li>
+									<li><a href="http://www.cma.gov.cn" target="_blank" title="새창열림">중국</a></li>
+									<li><a href="http://www.metoffice.gov.uk/" target="_blank" title="새창열림">영국</a></li>
+									<li><a href="http://www.meteofrance.com" target="_blank" title="새창열림">프랑스</a></li>
+									<li><a href="http://www.wmo.int" target="_blank" title="새창열림">세계기상기구WMO</a></li>
+								</ul>
+								<span class="arr"></span>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="f_2nd">
+					<div class="f_con_top pc">
+						<a href="/kma/guide/privacy.jsp" style="font-weight:600;" class="pc">개인정보처리방침</a>
+						<a href="/kma/guide/siteinfo.jsp" class="pc">이용안내</a>
+						<a href="/kma/guide/faq.jsp">자주 묻는 질문</a>
+						<a href="/kma/guide/copyright.jsp" class="pc">저작권보호 및 정책</a>
+						<a href="/kma/guide/accessibility.jsp">웹접근성</a>
+						<a href="/kma/guide/feedback.jsp">누리집 오류 건의</a>
+						<a href="/kma/org/system/org_chart.jsp" class="pc">전화번호안내</a>
+						<a href="/kma/org/system/org_staff.jsp" class="pc">부서&amp;직원찾기</a>
+						<a href="/kma/guide/viewer.jsp">문서보기 프로그램 내려받기</a>
+						<span class="mobile">기상청 업무에 관한 문의는 
+						<a href="https://www.epeople.go.kr/nep/pttn/gnrlPttn/PttnRqstWrtnInfo.paid" target="_blank" style="font-weight: 600;">국민신문고</a>를 이용해주시기 바랍니다.</span>
+					</div>
+					
+					<div class="f_con_bot">
+						<div>
+							<div><strong>대전</strong> (35208) 대전광역시 서구 청사로 189 정부대전청사 1동 11~14층 / 전화 <a href="tel:042-481-7500" class="tel">(042)481-7500</a><br>
+							<strong>서울</strong> (07062) 서울특별시 동작구 여의대방로16길 61 / 전화 <a href="tel:02-2181-0900" class="tel">(02)2181-0900</a><br>
+							</div>
+							<div>
+								<span class="pc"><strong>전자우편</strong>(웹사이트 관련 문의):  webmasterkma@korea.kr<br /> Copyright © 2025 KMA. All Rights RESERVED</span>
+								<span class="mobile">전자우편(웹사이트 관련 문의):  webmasterkma@korea.kr</span>
+							</div>
+							<div class="mark">
+								<span class="mark_2025" role="img" aria-label="전국 국번없이 기상콜센터(365일 24시간) 131(유료)"></span>
+								<a href="http://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank" title="새창열림">
+									<img src="/kma/resources/images/common/f_3rd_1_25.png" alt="(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)" width="50">
+								</a>
+							</div>
+							<div class="f_line2 mobile"></div>
+							<div class="f_guide mobile">
+								<ul>
+									<li><a href="/kma/guide/privacy.jsp" style="font-weight:600;">개인정보처리방침</a></li>
+									<li><a href="/kma/guide/siteinfo.jsp">이용안내</a></li>
+									<li><a href="/kma/guide/copyright.jsp">저작권보호 및 정책</a></li>
+								</ul>
+							</div>
+							<div class="mobile">Copyright © 2025 KMA. All Rights RESERVED</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	</div>
+</body>
+</html>
+%
+!! 주의: 오늘은 우산을 챙기는 것이 좋겠습니다.

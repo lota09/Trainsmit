@@ -1,0 +1,2042 @@
+<!--2테이블-->
+<div class="tbl-base-s">
+	<table>
+		<caption>
+			<strong>요청인자</strong>
+			<span class="ui-caption"></span>
+		</caption>
+		<colgroup>
+			<col style="width:20%">
+			<col style="width:20%">
+			<col style="width:20%">
+			<col style="width:40%">
+		</colgroup>
+		<thead>
+			<tr>
+				<th scope="col">변수명</th>
+				<th scope="col">타입</th>
+				<th scope="col">변수설명</th>
+				<th scope="col">값설명</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>KEY</td>
+				<td>String(필수)</td>
+				<td>인증키</td>
+				<td>OpenAPI 에서 발급된 인증키</td>
+			</tr>
+			<tr>
+				<td>TYPE</td>
+				<td>String(필수)</td>
+				<td>요청파일타입</td>
+				<td>
+
+
+
+					<p>xml : xml</p>
+
+
+
+
+
+
+
+
+
+				</td>
+			</tr>
+			<tr>
+				<td>SERVICE</td>
+				<td>String(필수)</td>
+				<td>서비스명</td>
+				<td>citydata</td>
+			</tr>
+			<!-- ESB Bypass인 경우 pageNo, pageIndex로 Service해야 하는 경우가 있음 2017.11.27 by shoh@ydns.co.kr -->
+
+
+
+			<tr>
+				<td>START_INDEX</td>
+				<td>INTEGER(필수)</td>
+				<td>요청시작위치</td>
+				<td>정수 입력 (페이징 시작번호 입니다 : 데이터 행 시작번호)</td>
+			</tr>
+			<tr>
+				<td>END_INDEX</td>
+				<td>INTEGER(필수)</td>
+				<td>요청종료위치</td>
+				<td>정수 입력 (페이징 끝번호 입니다 : 데이터 행 끝번호)</td>
+			</tr>
+
+
+
+
+
+
+			<tr>
+				<td>AREA_NM</td>
+				<td>STRING(필수)</td>
+				<td>핫스팟 장소명</td>
+				<td>장소명 or 장소코드 입력(서울시 주요 120장소명 목록(코드포함).xlsx 파일 참고)</td>
+			</tr>
+
+
+
+
+		</tbody>
+	</table>
+</div>
+
+<div class="detail-cont-tit mgt-m">
+	<h2>출력값</h2>
+</div>
+<!--3테이블-->
+<div class="tbl-base-s">
+	<table>
+		<caption>
+			<strong>출력값</strong>
+			<span class="ui-caption"></span>
+		</caption>
+		<colgroup>
+			<col style="width:10%">
+			<col style="width:30%">
+			<col style="width:60%">
+		</colgroup>
+		<thead>
+			<tr>
+				<th scope="col">No</th>
+				<th scope="col">출력명</th>
+				<th scope="col">출력설명</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>공통</td>
+				<td>list_total_count</td>
+				<td>총 데이터 건수 (정상조회 시 출력됨)</td>
+			</tr>
+			<tr>
+				<td>공통</td>
+				<td>RESULT.CODE</td>
+				<td>요청결과 코드 (하단 메세지설명 참고)</td>
+			</tr>
+			<tr>
+				<td>공통</td>
+				<td>RESULT.MESSAGE</td>
+				<td>요청결과 메시지 (하단 메세지설명 참고)</td>
+			</tr>
+
+			<tr>
+
+				<td>1</td>
+				<td>AREA_NM</td>
+				<td>핫스팟 장소명</td>
+			</tr>
+
+			<tr>
+
+				<td>2</td>
+				<td>AREA_CD</td>
+				<td>핫스팟 코드명</td>
+			</tr>
+
+			<tr>
+
+				<td>3</td>
+				<td>LIVE_PPLTN_STTS</td>
+				<td>실시간 인구현황</td>
+			</tr>
+
+			<tr>
+
+				<td>4</td>
+				<td>AREA_CONGEST_LVL</td>
+				<td>장소 혼잡도 지표</td>
+			</tr>
+
+			<tr>
+
+				<td>5</td>
+				<td>AREA_CONGEST_MSG</td>
+				<td>장소 혼잡도 지표 관련 메세지</td>
+			</tr>
+
+			<tr>
+
+				<td>6</td>
+				<td>AREA_PPLTN_MIN</td>
+				<td>실시간 인구 지표 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>7</td>
+				<td>AREA_PPLTN_MAX</td>
+				<td>실시간 인구 지표 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>8</td>
+				<td>MALE_PPLTN_RATE</td>
+				<td>남성 인구 비율(남성)</td>
+			</tr>
+
+			<tr>
+
+				<td>9</td>
+				<td>FEMALE_PPLTN_RATE</td>
+				<td>여성 인구 비율(여성)</td>
+			</tr>
+
+			<tr>
+
+				<td>10</td>
+				<td>PPLTN_RATE_0</td>
+				<td>0~10세 인구 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>11</td>
+				<td>PPLTN_RATE_10</td>
+				<td>10대 실시간 인구 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>12</td>
+				<td>PPLTN_RATE_20</td>
+				<td>20대 실시간 인구 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>13</td>
+				<td>PPLTN_RATE_30</td>
+				<td>30대 실시간 인구 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>14</td>
+				<td>PPLTN_RATE_40</td>
+				<td>40대 실시간 인구 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>15</td>
+				<td>PPLTN_RATE_50</td>
+				<td>50대 실시간 인구 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>16</td>
+				<td>PPLTN_RATE_60</td>
+				<td>60대 실시간 인구 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>17</td>
+				<td>PPLTN_RATE_70</td>
+				<td>70대 실시간 인구 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>18</td>
+				<td>RESNT_PPLTN_RATE</td>
+				<td>상주 인구 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>19</td>
+				<td>NON_RESNT_PPLTN_RATE</td>
+				<td>비상주 인구 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>20</td>
+				<td>REPLACE_YN</td>
+				<td>대체 데이터 여부</td>
+			</tr>
+
+			<tr>
+
+				<td>21</td>
+				<td>PPLTN_TIME</td>
+				<td>실시간 인구 데이터 업데이트 시간</td>
+			</tr>
+
+			<tr>
+
+				<td>22</td>
+				<td>FCST_YN</td>
+				<td>예측값 제공 여부</td>
+			</tr>
+
+			<tr>
+
+				<td>23</td>
+				<td>FCST_PPLTN</td>
+				<td>인구 예측값</td>
+			</tr>
+
+			<tr>
+
+				<td>24</td>
+				<td>FCST_TIME</td>
+				<td>인구 예측시점</td>
+			</tr>
+
+			<tr>
+
+				<td>25</td>
+				<td>FCST_CONGEST_LVL</td>
+				<td>장소 예측 혼잡도 지표</td>
+			</tr>
+
+			<tr>
+
+				<td>26</td>
+				<td>FCST_PPLTN_MIN</td>
+				<td>예측 실시간 인구 지표 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>27</td>
+				<td>FCST_PPLTN_MAX</td>
+				<td>예측 실시간 인구 지표 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>28</td>
+				<td>ROAD_TRAFFIC_STTS</td>
+				<td>도로소통현황</td>
+			</tr>
+
+			<tr>
+
+				<td>29</td>
+				<td>ROAD_TRAFFIC_SPD</td>
+				<td>전체도로소통평균속도</td>
+			</tr>
+
+			<tr>
+
+				<td>30</td>
+				<td>ROAD_TRAFFIC_IDX</td>
+				<td>전체도로소통평균현황</td>
+			</tr>
+
+			<tr>
+
+				<td>31</td>
+				<td>ROAD_TRAFFIC_TIME</td>
+				<td>도로소통현황 업데이트 시간</td>
+			</tr>
+
+			<tr>
+
+				<td>32</td>
+				<td>ROAD_MSG</td>
+				<td>전체도로소통평균현황 메세지</td>
+			</tr>
+
+			<tr>
+
+				<td>33</td>
+				<td>LINK_ID</td>
+				<td>도로구간 LINK ID</td>
+			</tr>
+
+			<tr>
+
+				<td>34</td>
+				<td>ROAD_NM</td>
+				<td>도로명</td>
+			</tr>
+
+			<tr>
+
+				<td>35</td>
+				<td>START_ND_CD</td>
+				<td>도로노드시작지점 코드</td>
+			</tr>
+
+			<tr>
+
+				<td>36</td>
+				<td>START_ND_NM</td>
+				<td>도로노드시작명</td>
+			</tr>
+
+			<tr>
+
+				<td>37</td>
+				<td>START_ND_XY</td>
+				<td>도로노드시작지점좌표</td>
+			</tr>
+
+			<tr>
+
+				<td>38</td>
+				<td>END_ND_CD</td>
+				<td>도로노드종료지점 코드</td>
+			</tr>
+
+			<tr>
+
+				<td>39</td>
+				<td>END_ND_NM</td>
+				<td>도로노드종료명</td>
+			</tr>
+
+			<tr>
+
+				<td>40</td>
+				<td>END_ND_XY</td>
+				<td>도로노드종료지점좌표</td>
+			</tr>
+
+			<tr>
+
+				<td>41</td>
+				<td>DIST</td>
+				<td>도로구간길이</td>
+			</tr>
+
+			<tr>
+
+				<td>42</td>
+				<td>SPD</td>
+				<td>도로구간평균속도</td>
+			</tr>
+
+			<tr>
+
+				<td>43</td>
+				<td>IDX</td>
+				<td>도로구간소통지표</td>
+			</tr>
+
+			<tr>
+
+				<td>44</td>
+				<td>XYLIST</td>
+				<td>링크아이디 좌표(보간점)</td>
+			</tr>
+
+			<tr>
+
+				<td>45</td>
+				<td>PRK_STTS</td>
+				<td>주차장 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>46</td>
+				<td>PRK_NM</td>
+				<td>주차장명</td>
+			</tr>
+
+			<tr>
+
+				<td>47</td>
+				<td>PRK_CD</td>
+				<td>주차장코드</td>
+			</tr>
+
+			<tr>
+
+				<td>48</td>
+				<td>PRK_TYPE</td>
+				<td>주차장구분</td>
+			</tr>
+
+			<tr>
+
+				<td>49</td>
+				<td>CPCTY</td>
+				<td>주차장 수용 가능 면수</td>
+			</tr>
+
+			<tr>
+
+				<td>50</td>
+				<td>CUR_PRK_CNT</td>
+				<td>주차장 주차 가능 면수</td>
+			</tr>
+
+			<tr>
+
+				<td>51</td>
+				<td>CUR_PRK_TIME</td>
+				<td>현재 주차장 주차 차량 수 업데이트 시간</td>
+			</tr>
+
+			<tr>
+
+				<td>52</td>
+				<td>CUR_PRK_YN</td>
+				<td>실시간 주차장 주차 현황 제공 여부</td>
+			</tr>
+
+			<tr>
+
+				<td>53</td>
+				<td>PAY_YN</td>
+				<td>유무료 여부</td>
+			</tr>
+
+			<tr>
+
+				<td>54</td>
+				<td>RATES</td>
+				<td>기본주차요금</td>
+			</tr>
+
+			<tr>
+
+				<td>55</td>
+				<td>TIME_RATES</td>
+				<td>기본주차단위시간</td>
+			</tr>
+
+			<tr>
+
+				<td>56</td>
+				<td>ADD_RATES</td>
+				<td>추가주차단위요금</td>
+			</tr>
+
+			<tr>
+
+				<td>57</td>
+				<td>ADD_TIME_RATES</td>
+				<td>추가주차단위시간</td>
+			</tr>
+
+			<tr>
+
+				<td>58</td>
+				<td>ROAD_ADDR</td>
+				<td>도로명주소</td>
+			</tr>
+
+			<tr>
+
+				<td>59</td>
+				<td>ADDRESS</td>
+				<td>지번주소</td>
+			</tr>
+
+			<tr>
+
+				<td>60</td>
+				<td>LAT</td>
+				<td>위도</td>
+			</tr>
+
+			<tr>
+
+				<td>61</td>
+				<td>LNG</td>
+				<td>경도</td>
+			</tr>
+
+			<tr>
+
+				<td>62</td>
+				<td>SUB_STTS</td>
+				<td>지하철 실시간 도착 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>63</td>
+				<td>SUB_STN_NM</td>
+				<td>지하철역명</td>
+			</tr>
+
+			<tr>
+
+				<td>64</td>
+				<td>SUB_STN_LINE</td>
+				<td>지하철역 호선</td>
+			</tr>
+
+			<tr>
+
+				<td>65</td>
+				<td>SUB_STN_RADDR</td>
+				<td>지하철역 도로명 주소</td>
+			</tr>
+
+			<tr>
+
+				<td>66</td>
+				<td>SUB_STN_JIBUN</td>
+				<td>지하철역 구 지번주소</td>
+			</tr>
+
+			<tr>
+
+				<td>67</td>
+				<td>SUB_STN_X</td>
+				<td>지하철역 X 좌표(경도)</td>
+			</tr>
+
+			<tr>
+
+				<td>68</td>
+				<td>SUB_STN_Y</td>
+				<td>지하철역 Y 좌표(위도)</td>
+			</tr>
+
+			<tr>
+
+				<td>69</td>
+				<td>SUB_NT_STN</td>
+				<td>다음역 코드</td>
+			</tr>
+
+			<tr>
+
+				<td>70</td>
+				<td>SUB_BF_STN</td>
+				<td>이전역 코드</td>
+			</tr>
+
+			<tr>
+
+				<td>71</td>
+				<td>SUB_ROUTE_NM</td>
+				<td>지하철노선명</td>
+			</tr>
+
+			<tr>
+
+				<td>72</td>
+				<td>SUB_LINE</td>
+				<td>지하철호선</td>
+			</tr>
+
+			<tr>
+
+				<td>73</td>
+				<td>SUB_ORD</td>
+				<td>도착예정열차순번</td>
+			</tr>
+
+			<tr>
+
+				<td>74</td>
+				<td>SUB_DIR</td>
+				<td>지하철방향</td>
+			</tr>
+
+			<tr>
+
+				<td>75</td>
+				<td>SUB_TERMINAL</td>
+				<td>종착역</td>
+			</tr>
+
+			<tr>
+
+				<td>76</td>
+				<td>SUB_ARVTIME</td>
+				<td>열차 도착 시간</td>
+			</tr>
+
+			<tr>
+
+				<td>77</td>
+				<td>SUB_ARMG1</td>
+				<td>열차 도착 메세지</td>
+			</tr>
+
+			<tr>
+
+				<td>78</td>
+				<td>SUB_ARMG2</td>
+				<td>열차 도착 메세지</td>
+			</tr>
+
+			<tr>
+
+				<td>79</td>
+				<td>SUB_ARVINFO</td>
+				<td>열차 도착 코드 정보</td>
+			</tr>
+
+			<tr>
+
+				<td>80</td>
+				<td>SUB_FACINFO</td>
+				<td>교통약자 이용시설 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>81</td>
+				<td>ELVTR_NM</td>
+				<td>승강기명</td>
+			</tr>
+
+			<tr>
+
+				<td>82</td>
+				<td>OPR_SEC</td>
+				<td>운행구간</td>
+			</tr>
+
+			<tr>
+
+				<td>83</td>
+				<td>INSTL_PSTN</td>
+				<td>설치위치</td>
+			</tr>
+
+			<tr>
+
+				<td>84</td>
+				<td>USE_YN</td>
+				<td>운행상태</td>
+			</tr>
+
+			<tr>
+
+				<td>85</td>
+				<td>ELVTR_SE</td>
+				<td>승강기구분</td>
+			</tr>
+
+			<tr>
+
+				<td>86</td>
+				<td>LIVE_SUB_PPLTN</td>
+				<td>실시간 지하철 승하차 인원</td>
+			</tr>
+
+			<tr>
+
+				<td>87</td>
+				<td>SUB_ACML_GTON_PPLTN_MIN</td>
+				<td>첫차이후(당일) 누적 승차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>88</td>
+				<td>SUB_ACML_GTON_PPLTN_MAX</td>
+				<td>첫차이후(당일) 누적 승차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>89</td>
+				<td>SUB_ACML_GTOFF_PPLTN_MIN</td>
+				<td>첫차이후(당일) 누적 하차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>90</td>
+				<td>SUB_ACML_GTOFF_PPLTN_MAX</td>
+				<td>첫차이후(당일) 누적 하차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>91</td>
+				<td>SUB_30WTHN_GTON_PPLTN_MIN</td>
+				<td>30분 이내 승차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>92</td>
+				<td>SUB_30WTHN_GTON_PPLTN_MAX</td>
+				<td>30분 이내 승차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>93</td>
+				<td>SUB_30WTHN_GTOFF_PPLTN_MIN</td>
+				<td>30분 이내 하차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>94</td>
+				<td>SUB_30WTHN_GTOFF_PPLTN_MAX</td>
+				<td>30분 이내 하차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>95</td>
+				<td>SUB_10WTHN_GTON_PPLTN_MIN</td>
+				<td>10분 이내 승차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>96</td>
+				<td>SUB_10WTHN_GTON_PPLTN_MAX</td>
+				<td>10분 이내 승차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>97</td>
+				<td>SUB_10WTHN_GTOFF_PPLTN_MIN</td>
+				<td>10분 이내 하차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>98</td>
+				<td>SUB_10WTHN_GTOFF_PPLTN_MAX</td>
+				<td>10분 이내 하차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>99</td>
+				<td>SUB_5WTHN_GTON_PPLTN_MIN</td>
+				<td>5분 이내 승차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>100</td>
+				<td>SUB_5WTHN_GTON_PPLTN_MAX</td>
+				<td>5분 이내 승차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>101</td>
+				<td>SUB_5WTHN_GTOFF_PPLTN_MIN</td>
+				<td>5분 이내 하차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>102</td>
+				<td>SUB_5WTHN_GTOFF_PPLTN_MAX</td>
+				<td>5분 이내 하차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>103</td>
+				<td>SUB_STN_CNT</td>
+				<td>장소 내 지하철역 개수</td>
+			</tr>
+
+			<tr>
+
+				<td>104</td>
+				<td>SUB_STN_TIME</td>
+				<td>지하철역 개수 기준년월</td>
+			</tr>
+
+			<tr>
+
+				<td>105</td>
+				<td>BUS_STN_STTS</td>
+				<td>버스정류소 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>106</td>
+				<td>BUS_RESULT_MSG</td>
+				<td>버스데이터 호출메시지</td>
+			</tr>
+
+			<tr>
+
+				<td>107</td>
+				<td>BUS_STN_ID</td>
+				<td>정류소ID</td>
+			</tr>
+
+			<tr>
+
+				<td>108</td>
+				<td>BUS_ARS_ID</td>
+				<td>정류소 고유번호</td>
+			</tr>
+
+			<tr>
+
+				<td>109</td>
+				<td>BUS_STN_NM</td>
+				<td>정류소명</td>
+			</tr>
+
+			<tr>
+
+				<td>110</td>
+				<td>BUS_STN_X</td>
+				<td>정류소 X 좌표(경도)</td>
+			</tr>
+
+			<tr>
+
+				<td>111</td>
+				<td>BUS_STN_Y</td>
+				<td>정류소 Y 좌표(위도)</td>
+			</tr>
+
+			<tr>
+
+				<td>112</td>
+				<td>LIVE_BUS_PPLTN</td>
+				<td>실시간 버스 승하차 인원</td>
+			</tr>
+
+			<tr>
+
+				<td>113</td>
+				<td>BUS_ACML_GTON_PPLTN_MIN</td>
+				<td>첫차이후(당일) 누적 승차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>114</td>
+				<td>BUS_ACML_GTON_PPLTN_MAX</td>
+				<td>첫차이후(당일) 누적 승차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>115</td>
+				<td>BUS_ACML_GTOFF_PPLTN_MIN</td>
+				<td>첫차이후(당일) 누적 하차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>116</td>
+				<td>BUS_ACML_GTOFF_PPLTN_MAX</td>
+				<td>첫차이후(당일) 누적 하차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>117</td>
+				<td>BUS_30WTHN_GTON_PPLTN_MIN</td>
+				<td>30분 이내 승차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>118</td>
+				<td>BUS_30WTHN_GTON_PPLTN_MAX</td>
+				<td>30분 이내 승차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>119</td>
+				<td>BUS_30WTHN_GTOFF_PPLTN_MIN</td>
+				<td>30분 이내 하차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>120</td>
+				<td>BUS_30WTHN_GTOFF_PPLTN_MAX</td>
+				<td>30분 이내 하차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>121</td>
+				<td>BUS_10WTHN_GTON_PPLTN_MIN</td>
+				<td>10분 이내 승차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>122</td>
+				<td>BUS_10WTHN_GTON_PPLTN_MAX</td>
+				<td>10분 이내 승차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>123</td>
+				<td>BUS_10WTHN_GTOFF_PPLTN_MIN</td>
+				<td>10분 이내 하차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>124</td>
+				<td>BUS_10WTHN_GTOFF_PPLTN_MAX</td>
+				<td>10분 이내 하차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>125</td>
+				<td>BUS_5WTHN_GTON_PPLTN_MIN</td>
+				<td>5분 이내 승차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>126</td>
+				<td>BUS_5WTHN_GTON_PPLTN_MAX</td>
+				<td>5분 이내 승차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>127</td>
+				<td>BUS_5WTHN_GTOFF_PPLTN_MIN</td>
+				<td>5분 이내 하차 인원 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>128</td>
+				<td>BUS_5WTHN_GTOFF_PPLTN_MAX</td>
+				<td>5분 이내 하차 인원 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>129</td>
+				<td>BUS_STN_CNT</td>
+				<td>장소 내 버스정류장 개수</td>
+			</tr>
+
+			<tr>
+
+				<td>130</td>
+				<td>BUS_STN_TIME</td>
+				<td>버스정류장 개수 기준 년월</td>
+			</tr>
+
+			<tr>
+
+				<td>131</td>
+				<td>ACDNT_CNTRL_STTS</td>
+				<td>사고통제현황</td>
+			</tr>
+
+			<tr>
+
+				<td>132</td>
+				<td>ACDNT_OCCR_DT</td>
+				<td>사고발생일시</td>
+			</tr>
+
+			<tr>
+
+				<td>133</td>
+				<td>EXP_CLR_DT</td>
+				<td>통제종료예정일시</td>
+			</tr>
+
+			<tr>
+
+				<td>134</td>
+				<td>ACDNT_TYPE</td>
+				<td>사고발생유형</td>
+			</tr>
+
+			<tr>
+
+				<td>135</td>
+				<td>ACDNT_DTYPE</td>
+				<td>사고발생세부유형</td>
+			</tr>
+
+			<tr>
+
+				<td>136</td>
+				<td>ACDNT_INFO</td>
+				<td>사고통제내용</td>
+			</tr>
+
+			<tr>
+
+				<td>137</td>
+				<td>ACDNT_X</td>
+				<td>사고통제지점 X 좌표(경도)</td>
+			</tr>
+
+			<tr>
+
+				<td>138</td>
+				<td>ACDNT_Y</td>
+				<td>사고통제지점 Y 좌표(위도)</td>
+			</tr>
+
+			<tr>
+
+				<td>139</td>
+				<td>ACDNT_TIME</td>
+				<td>사고통제현황 업데이트 시간</td>
+			</tr>
+
+			<tr>
+
+				<td>140</td>
+				<td>CHARGER_STTS</td>
+				<td>전기차충전소 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>141</td>
+				<td>STAT_NM</td>
+				<td>전기차충전소명</td>
+			</tr>
+
+			<tr>
+
+				<td>142</td>
+				<td>STAT_ID</td>
+				<td>전기차충전소ID</td>
+			</tr>
+
+			<tr>
+
+				<td>143</td>
+				<td>STAT_ADDR</td>
+				<td>전기차충전소주소</td>
+			</tr>
+
+			<tr>
+
+				<td>144</td>
+				<td>STAT_X</td>
+				<td>전기차충전소 X 좌표(경도)</td>
+			</tr>
+
+			<tr>
+
+				<td>145</td>
+				<td>STAT_Y</td>
+				<td>전기차충전소 Y 좌표(위도)</td>
+			</tr>
+
+			<tr>
+
+				<td>146</td>
+				<td>STAT_USETIME</td>
+				<td>전기차충전소 운영시간</td>
+			</tr>
+
+			<tr>
+
+				<td>147</td>
+				<td>STAT_PARKPAY</td>
+				<td>전기가충전소 주차료 유무료 여부</td>
+			</tr>
+
+			<tr>
+
+				<td>148</td>
+				<td>STAT_LIMITYN</td>
+				<td>전기차충전소 이용자 제한</td>
+			</tr>
+
+			<tr>
+
+				<td>149</td>
+				<td>STAT_LIMITDETAIL</td>
+				<td>전기차충전소 이용제한 사유</td>
+			</tr>
+
+			<tr>
+
+				<td>150</td>
+				<td>STAT_KINDDETAIL</td>
+				<td>전기차충전소 상세유형</td>
+			</tr>
+
+			<tr>
+
+				<td>151</td>
+				<td>CHARGER_ID</td>
+				<td>충전기 ID</td>
+			</tr>
+
+			<tr>
+
+				<td>152</td>
+				<td>CHARGER_TYPE</td>
+				<td>충전기 타입</td>
+			</tr>
+
+			<tr>
+
+				<td>153</td>
+				<td>CHARGER_STAT</td>
+				<td>충전기 상태</td>
+			</tr>
+
+			<tr>
+
+				<td>154</td>
+				<td>STATUPDDT</td>
+				<td>충전기 상태 갱신일시</td>
+			</tr>
+
+			<tr>
+
+				<td>155</td>
+				<td>LASTTSDT</td>
+				<td>충전기 마지막 충전시작일시</td>
+			</tr>
+
+			<tr>
+
+				<td>156</td>
+				<td>LASTTEDT</td>
+				<td>충전기 마지막 충전종료일시</td>
+			</tr>
+
+			<tr>
+
+				<td>157</td>
+				<td>NOWTSDT</td>
+				<td>충전기 충전중 시작일시</td>
+			</tr>
+
+			<tr>
+
+				<td>158</td>
+				<td>OUTPUT</td>
+				<td>충전기 충전용량</td>
+			</tr>
+
+			<tr>
+
+				<td>159</td>
+				<td>METHOD</td>
+				<td>충전기 충전방식</td>
+			</tr>
+
+			<tr>
+
+				<td>160</td>
+				<td>SBIKE_STTS</td>
+				<td>따릉이 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>161</td>
+				<td>SBIKE_SPOT_NM</td>
+				<td>따릉이대여소명</td>
+			</tr>
+
+			<tr>
+
+				<td>162</td>
+				<td>SBIKE_SPOT_ID</td>
+				<td>따릉이대여소ID</td>
+			</tr>
+
+			<tr>
+
+				<td>163</td>
+				<td>SBIKE_SHARED</td>
+				<td>따릉이거치율</td>
+			</tr>
+
+			<tr>
+
+				<td>164</td>
+				<td>SBIKE_PARKING_CNT</td>
+				<td>따릉이 주차 건수</td>
+			</tr>
+
+			<tr>
+
+				<td>165</td>
+				<td>SBIKE_RACK_CNT</td>
+				<td>따릉이거치대 개수</td>
+			</tr>
+
+			<tr>
+
+				<td>166</td>
+				<td>SBIKE_X</td>
+				<td>따릉이대여소 X 좌표(경도)</td>
+			</tr>
+
+			<tr>
+
+				<td>167</td>
+				<td>SBIKE_Y</td>
+				<td>따릉이대여소 Y 좌표(위도)</td>
+			</tr>
+
+			<tr>
+
+				<td>168</td>
+				<td>WEATHER_STTS</td>
+				<td>날씨 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>169</td>
+				<td>TEMP</td>
+				<td>기온</td>
+			</tr>
+
+			<tr>
+
+				<td>170</td>
+				<td>SENSIBLE_TEMP</td>
+				<td>체감온도</td>
+			</tr>
+
+			<tr>
+
+				<td>171</td>
+				<td>MAX_TEMP</td>
+				<td>일 최저온도/최고온도</td>
+			</tr>
+
+			<tr>
+
+				<td>172</td>
+				<td>MIN_TEMP</td>
+				<td>일 최저온도/최고온도</td>
+			</tr>
+
+			<tr>
+
+				<td>173</td>
+				<td>HUMIDITY</td>
+				<td>습도</td>
+			</tr>
+
+			<tr>
+
+				<td>174</td>
+				<td>WIND_DIRCT</td>
+				<td>풍향</td>
+			</tr>
+
+			<tr>
+
+				<td>175</td>
+				<td>WIND_SPD</td>
+				<td>풍속</td>
+			</tr>
+
+			<tr>
+
+				<td>176</td>
+				<td>PRECIPITATION</td>
+				<td>강수량</td>
+			</tr>
+
+			<tr>
+
+				<td>177</td>
+				<td>PRECPT_TYPE</td>
+				<td>강수형태</td>
+			</tr>
+
+			<tr>
+
+				<td>178</td>
+				<td>PCP_MSG</td>
+				<td>강수관련 메세지</td>
+			</tr>
+
+			<tr>
+
+				<td>179</td>
+				<td>SUNRISE</td>
+				<td>일출시각</td>
+			</tr>
+
+			<tr>
+
+				<td>180</td>
+				<td>SUNSET</td>
+				<td>일몰시각</td>
+			</tr>
+
+			<tr>
+
+				<td>181</td>
+				<td>UV_INDEX_LVL</td>
+				<td>자외선지수 단계</td>
+			</tr>
+
+			<tr>
+
+				<td>182</td>
+				<td>UV_INDEX</td>
+				<td>자외선지수</td>
+			</tr>
+
+			<tr>
+
+				<td>183</td>
+				<td>UV_MSG</td>
+				<td>자외선메세지</td>
+			</tr>
+
+			<tr>
+
+				<td>184</td>
+				<td>PM25_INDEX</td>
+				<td>초미세먼지지표</td>
+			</tr>
+
+			<tr>
+
+				<td>185</td>
+				<td>PM25</td>
+				<td>초미세먼지농도</td>
+			</tr>
+
+			<tr>
+
+				<td>186</td>
+				<td>PM10_INDEX</td>
+				<td>미세먼지지표</td>
+			</tr>
+
+			<tr>
+
+				<td>187</td>
+				<td>PM10</td>
+				<td>미세먼지농도</td>
+			</tr>
+
+			<tr>
+
+				<td>188</td>
+				<td>AIR_IDX</td>
+				<td>통합대기환경등급</td>
+			</tr>
+
+			<tr>
+
+				<td>189</td>
+				<td>AIR_IDX_MVL</td>
+				<td>통합대기환경지수</td>
+			</tr>
+
+			<tr>
+
+				<td>190</td>
+				<td>AIR_IDX_MAIN</td>
+				<td>통합대기환경지수 결정물질</td>
+			</tr>
+
+			<tr>
+
+				<td>191</td>
+				<td>AIR_MSG</td>
+				<td>통합대기환경등급별 메세지</td>
+			</tr>
+
+			<tr>
+
+				<td>192</td>
+				<td>WEATHER_TIME</td>
+				<td>날씨 데이터 업데이트 시간</td>
+			</tr>
+
+			<tr>
+
+				<td>193</td>
+				<td>NEWS_LIST</td>
+				<td>기상관련특보</td>
+			</tr>
+
+			<tr>
+
+				<td>194</td>
+				<td>WARN_VAL</td>
+				<td>기상특보종류</td>
+			</tr>
+
+			<tr>
+
+				<td>195</td>
+				<td>WARN_STRESS</td>
+				<td>기상특보강도</td>
+			</tr>
+
+			<tr>
+
+				<td>196</td>
+				<td>ANNOUNCE_TIME</td>
+				<td>기상특보발효시각</td>
+			</tr>
+
+			<tr>
+
+				<td>197</td>
+				<td>COMMAND</td>
+				<td>기상특보발표코드</td>
+			</tr>
+
+			<tr>
+
+				<td>198</td>
+				<td>CANCEL_YN</td>
+				<td>기상특보취소구분</td>
+			</tr>
+
+			<tr>
+
+				<td>199</td>
+				<td>WARN_MSG</td>
+				<td>기상특보별 행동강령</td>
+			</tr>
+
+			<tr>
+
+				<td>200</td>
+				<td>FCST24HOURS</td>
+				<td>24시간 예보</td>
+			</tr>
+
+			<tr>
+
+				<td>201</td>
+				<td>FCST_DT</td>
+				<td>예보시간</td>
+			</tr>
+
+			<tr>
+
+				<td>202</td>
+				<td>TEMP </td>
+				<td>기온</td>
+			</tr>
+
+			<tr>
+
+				<td>203</td>
+				<td>PRECIPITATION </td>
+				<td>강수량</td>
+			</tr>
+
+			<tr>
+
+				<td>204</td>
+				<td>PRECPT_TYPE </td>
+				<td>강수형태</td>
+			</tr>
+
+			<tr>
+
+				<td>205</td>
+				<td>RAIN_CHANCE</td>
+				<td>강수확률</td>
+			</tr>
+
+			<tr>
+
+				<td>206</td>
+				<td>SKY_STTS</td>
+				<td>하늘상태</td>
+			</tr>
+
+			<tr>
+
+				<td>207</td>
+				<td>CULTURALEVENTINFO</td>
+				<td>문화행사 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>208</td>
+				<td>EVENT_NM</td>
+				<td>문화행사명</td>
+			</tr>
+
+			<tr>
+
+				<td>209</td>
+				<td>EVENT_PERIOD</td>
+				<td>문화행사 기간</td>
+			</tr>
+
+			<tr>
+
+				<td>210</td>
+				<td>EVENT_PLACE</td>
+				<td>문화행사 장소</td>
+			</tr>
+
+			<tr>
+
+				<td>211</td>
+				<td>EVENT_X</td>
+				<td>문화행사 X 좌표(경도)</td>
+			</tr>
+
+			<tr>
+
+				<td>212</td>
+				<td>EVENT_Y</td>
+				<td>문화행사 Y 좌표(위도)</td>
+			</tr>
+
+			<tr>
+
+				<td>213</td>
+				<td> PAY_YN</td>
+				<td>유무료 여부</td>
+			</tr>
+
+			<tr>
+
+				<td>214</td>
+				<td>THUMBNAIL</td>
+				<td>문화행사 대표 이미지</td>
+			</tr>
+
+			<tr>
+
+				<td>215</td>
+				<td>URL</td>
+				<td>문화행사 상세정보 URL</td>
+			</tr>
+
+			<tr>
+
+				<td>216</td>
+				<td>EVENT_ETC_DETAIL</td>
+				<td>문화행사 기타 세부정보</td>
+			</tr>
+
+			<tr>
+
+				<td>217</td>
+				<td>LIVE_CMRCL_STTS</td>
+				<td>실시간 상권 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>218</td>
+				<td>AREA_CMRCL_LVL</td>
+				<td>장소 실시간 상권 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>219</td>
+				<td>AREA_SH_PAYMENT_CNT</td>
+				<td>장소 실시간 신한카드 결제 건수</td>
+			</tr>
+
+			<tr>
+
+				<td>220</td>
+				<td>AREA_SH_PAYMENT_AMT_MIN</td>
+				<td>장소 실시간 신한카드 결제 금액 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>221</td>
+				<td>AREA_SH_PAYMENT_AMT_MAX</td>
+				<td>장소 실시간 신한카드 결제 금액 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>222</td>
+				<td>RSB_LRG_CTGR</td>
+				<td>업종 대분류</td>
+			</tr>
+
+			<tr>
+
+				<td>223</td>
+				<td>RSB_MID_CTGR</td>
+				<td>업종 중분류</td>
+			</tr>
+
+			<tr>
+
+				<td>224</td>
+				<td>RSB_PAYMENT_LVL</td>
+				<td>업종 실시간 상권 현황</td>
+			</tr>
+
+			<tr>
+
+				<td>225</td>
+				<td>RSB_SH_PAYMENT_CNT</td>
+				<td>업종 실시간 신한카드 결제 건수</td>
+			</tr>
+
+			<tr>
+
+				<td>226</td>
+				<td>RSB_SH_PAYMENT_AMT_MIN</td>
+				<td>업종 실시간 신한카드 결제 금액 최소값</td>
+			</tr>
+
+			<tr>
+
+				<td>227</td>
+				<td>RSB_SH_PAYMENT_AMT_MAX</td>
+				<td>업종 실시간 신한카드 결제 금액 최대값</td>
+			</tr>
+
+			<tr>
+
+				<td>228</td>
+				<td>RSB_MCT_CNT</td>
+				<td>업종 가맹점 수</td>
+			</tr>
+
+			<tr>
+
+				<td>229</td>
+				<td>RSB_MCT_TIME</td>
+				<td>업종 가맹점 수 업데이트 월</td>
+			</tr>
+
+			<tr>
+
+				<td>230</td>
+				<td>CMRCL_MALE_RATE</td>
+				<td>남성 소비 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>231</td>
+				<td>CMRCL_FEMALE_RATE</td>
+				<td>여성 소비 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>232</td>
+				<td>CMRCL_10_RATE</td>
+				<td>10대 이하 소비 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>233</td>
+				<td>CMRCL_20_RATE</td>
+				<td>20대 소비 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>234</td>
+				<td>CMRCL_30_RATE</td>
+				<td>30대 소비 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>235</td>
+				<td>CMRCL_40_RATE</td>
+				<td>40대 소비 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>236</td>
+				<td>CMRCL_50_RATE</td>
+				<td>50대 소비 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>237</td>
+				<td>CMRCL_60_RATE</td>
+				<td>60대 이상 소비 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>238</td>
+				<td>CMRCL_PERSONAL_RATE</td>
+				<td>개인 소비 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>239</td>
+				<td>CMRCL_CORPORATION_RATE</td>
+				<td>법인 소비 비율</td>
+			</tr>
+
+			<tr>
+
+				<td>240</td>
+				<td>CMRCL_TIME</td>
+				<td>실시간 상권 현황 업데이트 시간</td>
+			</tr>
+
+			<tr>
+
+				<td>241</td>
+				<td>LIVE_DST_MESSAGE</td>
+				<td>실시간 긴급재난문자</td>
+			</tr>
+
+			<tr>
+
+				<td>242</td>
+				<td>DST_SE_NM</td>
+				<td>재해구분명</td>
+			</tr>
+
+			<tr>
+
+				<td>243</td>
+				<td>EMRG_STEP_NM</td>
+				<td>긴급단계명</td>
+			</tr>
+
+			<tr>
+
+				<td>244</td>
+				<td>MSG_CN</td>
+				<td>메시지내용</td>
+			</tr>
+
+			<tr>
+
+				<td>245</td>
+				<td>CRT_DT</td>
+				<td>생성 일시</td>
+			</tr>
+
+			<tr>
+
+				<td>246</td>
+				<td>LIVE_YNA_NEWS</td>
+				<td>연합뉴스 기사</td>
+			</tr>
+
+			<tr>
+
+				<td>247</td>
+				<td>YNA_STEP_NM</td>
+				<td>기사 구분</td>
+			</tr>
+
+			<tr>
+
+				<td>248</td>
+				<td>YNA_TTL</td>
+				<td>연합뉴스제목</td>
+			</tr>
+
+			<tr>
+
+				<td>249</td>
+				<td>YNA_CN</td>
+				<td>연합뉴스내용</td>
+			</tr>
+
+			<tr>
+
+				<td>250</td>
+				<td>YNA_YMD</td>
+				<td>연합뉴스일자</td>
+			</tr>
+
+			<tr>
+
+				<td>251</td>
+				<td>YNA_WRTR_NM</td>
+				<td>출처</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+
+</div>
+
+
+<div class="detail-cont-tit mgt-m">
+	<h2>샘플 테스트</h2>
+</div>
+<!--4테이블-->
+<div class="tbl-base-s type-form">
+	<table>
+		<caption>
+			<strong>Sample</strong>
+			<span class="ui-caption"></span>
+		</caption>
+		<colgroup>
+			<col class="col1">
+			<col class="col2">
+		</colgroup>
+		<tbody id="reqParamTbl">
+			<tr>
+				<th style="width:14%;" scope="row"> 핫스팟 장소명 </th>
+				<td><input type="text" class="inp-base input_tit"
+						onkeypress="javascript:if(event.keyCode==13){ requestSend();return false;}"></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="btn-wrap align-r">
+	<button type="button" class="btn-base-s" onclick="requestSend();"><span>결과확인</span></button>
+</div>
+<div class="tbl-base-s type-form">
+	<table>
+		<caption>
+			<strong>Call URL</strong>
+			<span class="ui-caption"></span>
+		</caption>
+		<colgroup>
+			<col class="col1">
+			<col class="col2">
+		</colgroup>
+		<tbody>
+			<tr>
+				<th scope="row">요청주소</th>
+				<td>
+
+					<textarea id="resultIfr" name="resultIfr"
+						style="width: 100%; height: 180px; font-size: 12px;"></textarea>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+
+<div class="detail-cont-tit mgt-m">
+	<h2>메시지 설명</h2>
+</div>
+<div class="tbl-base-s type-form">
+	<table>
+		<caption>
+			<strong>Sheet</strong>
+			<span class="ui-caption"></span>
+		</caption>
+		<colgroup>
+			<col class="col1">
+			<col class="col2">
+		</colgroup>
+		<tbody>
+
+			<tr>
+				<th scope="row">INFO-000</th>
+				<td>정상 처리되었습니다</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-300</th>
+				<td>필수 값이 누락되어 있습니다.<br>요청인자를 참고 하십시오.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">INFO-100</th>
+				<td>인증키가 유효하지 않습니다.<br>인증키가 없는 경우, 열린 데이터 광장 홈페이지에서 인증키를 신청하십시오.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-301</th>
+				<td>파일타입 값이 누락 혹은 유효하지 않습니다.<br>요청인자 중 TYPE을 확인하십시오.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-310</th>
+				<td>해당하는 서비스를 찾을 수 없습니다.<br>요청인자 중 SERVICE를 확인하십시오.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-331</th>
+				<td>요청시작위치 값을 확인하십시오.<br>요청인자 중 START_INDEX를 확인하십시오.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-332</th>
+				<td>요청종료위치 값을 확인하십시오.<br>요청인자 중 END_INDEX를 확인하십시오.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-333</th>
+				<td>요청위치 값의 타입이 유효하지 않습니다.<br>요청위치 값은 정수를 입력하세요.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-334</th>
+				<td>요청종료위치 보다 요청시작위치가 더 큽니다.<br>요청시작조회건수는 정수를 입력하세요.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-335</th>
+				<td>샘플데이터(샘플키:sample) 는 한번에 최대 5건을 넘을 수 없습니다.<br>요청시작위치와 요청종료위치 값은 1 ~ 5 사이만 가능합니다.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-336</th>
+				<td>데이터요청은 한번에 최대 1000건을 넘을 수 없습니다.<br>요청종료위치에서 요청시작위치를 뺀 값이 1000을 넘지 않도록 수정하세요.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-500</th>
+				<td>서버 오류입니다.<br>지속적으로 발생시 열린 데이터 광장으로 문의(Q&amp;A) 바랍니다.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-600</th>
+				<td>데이터베이스 연결 오류입니다.<br>지속적으로 발생시 열린 데이터 광장으로 문의(Q&amp;A) 바랍니다.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">ERROR-601</th>
+				<td>SQL 문장 오류 입니다.<br>지속적으로 발생시 열린 데이터 광장으로 문의(Q&amp;A) 바랍니다.</td>
+			</tr>
+
+			<tr>
+				<th scope="row">INFO-200</th>
+				<td>해당하는 데이터가 없습니다.</td>
+			</tr>
+
+		</tbody>
+	</table>
+</div>
+
+
+
+</form>
+</section>
