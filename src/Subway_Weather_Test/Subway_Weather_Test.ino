@@ -66,80 +66,74 @@ void fetchSubwayInfo() {
   }
 }
 
-// 환경 데이터 fetch (안전한 우회 전략)
+// 환경 데이터 fetch (CityData API 복원 - Stream Parsing & Filter 적용)
 void fetchCityData() {
   if (WiFi.status() != WL_CONNECTED) return;
 
   HTTPClient http;
 
-  // 1. 미세먼지 (서울시 RealtimeCityAir - 1/25 전체 구 수신)
-  String airUrl = "http://openapi.seoul.go.kr:8088/" + String(SEOUL_GENERAL_KEY) + "/json/RealtimeCityAir/1/25";
-  Serial.println("\n[AirQuality] Requesting Seoul Air Data...");
-  http.begin(airUrl);
-  if (http.GET() == HTTP_CODE_OK) {
-    String payload = http.getString();
-    Serial.printf("Payload length: %d\n", payload.length());
-    DynamicJsonDocument doc(10240);
-    DeserializationError error = deserializeJson(doc, payload);
+  // CityData API URL (POI 명칭 인코딩 필수)
+  String url = String(seoul_api_url) + SEOUL_GENERAL_KEY + "/json/citydata/1/1/" + urlEncode(CITYDATA_POI);
 
-    if (error) {
-      Serial.print(F("deserializeJson() failed: "));
-      Serial.println(error.f_str());
-      Serial.println(">> Air Quality JSON parsing failed. Top-level keys:");
-      // Attempt to print top-level keys if it's a valid JSON but not the expected structure
-      DynamicJsonDocument tempDoc(10240);  // Use a temporary doc for partial parsing if needed
-      if (!deserializeJson(tempDoc, payload)) {
-        JsonObject root = tempDoc.as<JsonObject>();
-        for (JsonPair p : root) {
-          Serial.printf("  - %s\n", p.key().c_str());
+  Serial.println("\n[CityData] Requesting: " + String(CITYDATA_POI));
+
+  // 대용량 데이터 안정성 확보를 위한 HTTP 1.0 설정
+  http.useHTTP10(true);
+  http.setTimeout(15000);  // 15초 대기
+  http.begin(url);
+
+  int httpCode = http.GET();
+  if (httpCode == HTTP_CODE_OK) {
+    // 1. 선별적 파싱을 위한 필터 정의 (메모리 절약 핵심)
+    StaticJsonDocument<512> filter;
+    filter["CITYDATA"]["WEATHER_STTS"] = true;
+    filter["CITYDATA"]["LIVE_PPLTN_STTS"] = true;
+    filter["RESULT"] = true;
+
+    // 2. 스트림 파싱 시도
+    DynamicJsonDocument doc(8192);  // 필터링된 결과만 담을 공간
+    DeserializationError error = deserializeJson(doc, http.getStream(), DeserializationOption::Filter(filter));
+
+    if (!error) {
+      if (doc.containsKey("CITYDATA")) {
+        // --- 날씨 데이터 추출 ---
+        JsonVariant weather = doc["CITYDATA"]["WEATHER_STTS"];
+        // 중첩 구조 해제 (API 특성상 WEATHER_STTS 아래 또 WEATHER_STTS가 있을 수 있음)
+        if (weather.containsKey("WEATHER_STTS")) weather = weather["WEATHER_STTS"];
+        if (weather.is<JsonArray>()) weather = weather[0];
+
+        if (!weather.isNull()) {
+          String temp = weather["TEMP"].as<String>();
+          String sky = weather["SKY_STTS"].as<String>();
+          String pm10 = weather["PM10"].as<String>();
+          String rainMsg = weather["PCP_MSG"].as<String>();
+
+          Serial.printf(">> 날씨: %s | 기온: %s도 | 미세먼지: %s\n", sky.c_str(), temp.c_str(), pm10.c_str());
+          Serial.printf(">> 기상안내: %s\n", rainMsg.c_str());
         }
-      }
-    } else if (doc.containsKey("RealtimeCityAir")) {
-      JsonArray rows = doc["RealtimeCityAir"]["row"];
-      bool found = false;
-      for (JsonObject row : rows) {
-        String loc = row["MSRSTE_NM"].as<String>();
-        if (loc.indexOf("강서") >= 0) {
-          Serial.printf(">> 미세먼지(%s): %s | 상태: %s\n",
-              loc.c_str(), row["PM10"].as<const char*>(), row["IDEX_NM"].as<const char*>());
-          found = true;
-          break;
+
+        // --- 인구 혼잡도 데이터 추출 ---
+        JsonVariant population = doc["CITYDATA"]["LIVE_PPLTN_STTS"];
+        if (population.containsKey("LIVE_PPLTN_STTS")) population = population["LIVE_PPLTN_STTS"];
+        if (population.is<JsonArray>()) population = population[0];
+
+        if (!population.isNull()) {
+          String congest = population["AREA_CONGEST_LVL"].as<String>();
+          String msg = population["AREA_CONGEST_MSG"].as<String>();
+          Serial.printf(">> 혼잡도: %s (%s)\n", congest.c_str(), msg.c_str());
         }
-      }
-      if (!found) Serial.println(">> '강서' 지역을 찾을 수 없습니다.");
-    } else {
-      Serial.println(">> JSON 구조가 다릅니다. 받은 데이터 앞부분:");
-      Serial.println(payload.substring(0, 100));
-      Serial.println(">> Top-level keys found:");
-      JsonObject root = doc.as<JsonObject>();
-      for (JsonPair p : root) {
-        Serial.printf("  - %s\n", p.key().c_str());
-      }
-    }
-  }
-  http.end();
 
-  // 2. 날씨 (기상청 RSS - 마곡동 기준 1150060300)
-  // 별도 API 키 없이 2KB 미만으로 매우 안정적임
-  String weatherUrl = "http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=1150060300";
-  Serial.println("[Weather] Requesting KMA RSS (Magok-dong)...");
-  http.begin(weatherUrl);
-  if (http.GET() == HTTP_CODE_OK) {
-    String payload = http.getString();
-    // XML 파싱 대신 가벼운 문자열 찾기 사용
-    int tempStart = payload.indexOf("<temp>") + 6;
-    int tempEnd = payload.indexOf("</temp>");
-    int wfStart = payload.indexOf("<wfKor>") + 7;
-    int wfEnd = payload.indexOf("</wfKor>");
-
-    if (tempStart > 5 && tempEnd > tempStart && wfStart > 6 && wfEnd > wfStart) {
-      String temp = payload.substring(tempStart, tempEnd);
-      String sky = payload.substring(wfStart, wfEnd);
-      Serial.printf(">> 날씨: %s | 기온: %s도\n", sky.c_str(), temp.c_str());
+      } else if (doc.containsKey("RESULT")) {
+        Serial.printf(">> API 오류: %s\n", doc["RESULT"]["MESSAGE"].as<const char*>());
+      } else {
+        Serial.println(">> CITYDATA 키를 찾을 수 없습니다.");
+      }
     } else {
-      Serial.println(">> 기상청 데이터를 해석할 수 없습니다.");
-      Serial.println(payload.substring(0, min((int)payload.length(), 200)));  // Print beginning of payload for debugging
+      Serial.print(">> JSON 파싱 에러 (Filter 적용): ");
+      Serial.println(error.c_str());
     }
+  } else {
+    Serial.printf("CityData HTTP Fail: %d\n", httpCode);
   }
   http.end();
 }
